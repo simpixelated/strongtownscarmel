@@ -1,7 +1,7 @@
 {
-	"name": "eleventy-base-blog",
-	"version": "9.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"name": "strong-towns-carmel-website",
+	"version": "0.0.1",
+	"description": "Website for the local chapter of Strong Towns in Carmel, Indiana.",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
@@ -15,25 +15,22 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/11ty/eleventy-base-blog.git"
+		"url": "git://github.com/simpixelated/strongtownscarmel.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Jordan Kohl",
+		"email": "kohl.jordan@gmail.com",
+		"url": "https://strongtownscarmel.org/"
 	},
 	"license": "MIT",
 	"engines": {
 		"node": ">=18"
 	},
-	"funding": {
-		"type": "opencollective",
-		"url": "https://opencollective.com/11ty"
-	},
+
 	"bugs": {
-		"url": "https://github.com/11ty/eleventy-base-blog/issues"
+		"url": "https://github.com/simpixelated/strongtownscarmel/issues"
 	},
-	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+	"homepage": "https://github.com/simpixelated/strongtownscarmel#readme",
 	"devDependencies": {
 		"@11ty/eleventy": "^3.0.0",
 		"@11ty/eleventy-img": "^6.0.1",

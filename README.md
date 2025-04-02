@@ -1,6 +1,6 @@
-# eleventy-base-blog v9
+# Strong Towns Carmel website
 
-A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://github.com/11ty/eleventy/releases/tag/v3.0.0)).
+Built with [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://github.com/11ty/eleventy/releases/tag/v3.0.0)).
 
 ## Getting Started
 
@@ -9,14 +9,14 @@ A starter repository showing how to build a blog with the [Eleventy](https://www
 1. Make a directory and navigate to it:
 
 ```
-mkdir my-blog-name
-cd my-blog-name
+mkdir strongtownscarmel
+cd strongtownscarmel
 ```
 
 2. Clone this Repository
 
 ```
-git clone https://github.com/11ty/eleventy-base-blog.git .
+git clone https://github.com/simpixelated/strongtownscarmel.git .
 ```
 
 _Optional:_ Review `eleventy.config.js` and `_data/metadata.js` to configure the site’s options and data.

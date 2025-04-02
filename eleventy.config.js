@@ -63,11 +63,11 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			title: "Strong Towns Carmel",
+			subtitle: "A blog about the Strong Towns movement in Carmel, Indiana.",
+			base: "https://strongtownscarmel.org/",
 			author: {
-				name: "Your Name"
+				name: "Strong Towns Carmel",
 			}
 		}
 	});
