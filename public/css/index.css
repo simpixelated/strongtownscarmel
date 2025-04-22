@@ -118,6 +118,10 @@ main,
 footer {
 	padding: 1rem;
 }
+footer {
+	font-size: smaller;
+	text-align: right;
+}
 main :first-child {
 	margin-top: 0;
 }
