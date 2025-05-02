@@ -122,6 +122,16 @@ footer {
 	font-size: smaller;
 	text-align: right;
 }
+footer span {
+	border-left: 1px solid var(--color-gray-20);
+	padding-left: .75em;
+	margin-left: .75em;
+}
+footer span:first-child {
+	border-left: none;
+	padding-left: 0;
+	margin-left: 0;
+}
 main :first-child {
 	margin-top: 0;
 }
