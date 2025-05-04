@@ -8,14 +8,14 @@
 :root {
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	--color-gray-90: #0C2340;
 
 	--background-color: #fff;
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color-link: #5790DB;
+	--text-color-link-active: #FFB549;
+	--text-color-link-visited: #A7C6ED;
 
 	--syntax-tab-size: 2;
 }
@@ -27,11 +27,11 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--text-color-link: #FFB549;
+		--text-color-link-active: #fdc776;
+		--text-color-link-visited: #A7C6ED;
 
-		--background-color: #15202b;
+		--background-color: #0C2340;
 	}
 }
 
@@ -121,6 +121,16 @@ footer {
 footer {
 	font-size: smaller;
 	text-align: right;
+}
+footer span {
+	border-left: 1px solid var(--color-gray-20);
+	padding-left: .75em;
+	margin-left: .75em;
+}
+footer span:first-child {
+	border-left: none;
+	padding-left: 0;
+	margin-left: 0;
 }
 main :first-child {
 	margin-top: 0;
