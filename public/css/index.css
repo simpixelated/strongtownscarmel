@@ -56,9 +56,9 @@ body {
 html {
 	overflow-y: scroll;
 }
-body {
+/* body {
 	max-width: 40em;
-}
+} */
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
