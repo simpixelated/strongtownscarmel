@@ -26,7 +26,7 @@
 		{%- css %}/* This is an arbitrary CSS string added to the bundle */{% endcss %}
 		{#- Add the contents of a file to the bundle #}
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
-		{%- css %}{% include "public/css/dopetrope.css" %}{% endcss %}
+		{# {%- css %}{% include "public/css/dopetrope.css" %}{% endcss %} #}
 		{#- Or you can add from node_modules #}
 		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
 
@@ -38,32 +38,33 @@
 		{#- Add the heading-anchors web component to the JavaScript bundle #}
 		{%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
 	</head>
-	<body>
+	<body class="d-flex flex-column min-vh-100">
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
-
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
-				</ul>
-			</nav>
+			<div class="container">
+				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+				<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+					<div class="container-fluid">
+						<h2 class="visually-hidden">Top level navigation menu</h2>
+						<a class="navbar-brand" href="/" class="home-link">{{ metadata.title }}</a>
+						<ul class="navbar-nav">
+						{%- for entry in collections.all | eleventyNavigation %}
+							<li class="nav-item"><a class="nav-link{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{%- endfor %}
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</header>
 
 		<main id="skip">
-			<heading-anchors>
-				<div class="container">
-					{{ content | safe }}
-				</div>
-			</heading-anchors>
+			<div class="container">
+				{{ content | safe }}
+			</div>
 		</main>
 
-		<footer>
+		<footer class="mt-auto">
 			<p>
 				<span>Join our <a href="https://discord.gg/yYjkUjpjzs">Discord</a></span>
 				<span><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></span>
