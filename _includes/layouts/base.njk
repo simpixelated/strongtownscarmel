@@ -42,7 +42,7 @@
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<div class="container">
+			<div class="container py-2">
 				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 				<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
 					<div class="container-fluid">
@@ -59,12 +59,10 @@
 		</header>
 
 		<main id="skip">
-			<div class="container">
-				{{ content | safe }}
-			</div>
+			{{ content | safe }}
 		</main>
 
-		<footer class="mt-auto">
+		<footer class="mt-auto py-2 px-4">
 			<p>
 				<span>Join our <a href="https://discord.gg/yYjkUjpjzs">Discord</a></span>
 				<span><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></span>

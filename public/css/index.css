@@ -13,6 +13,7 @@
 
 	--background-color: #f7f7f7;
 	--background-color-alt: #ffffff;
+	--background-color-dark: #252122;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #5790DB;
@@ -117,12 +118,8 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
-main,
 footer {
-	padding: 1rem;
-}
-footer {
-	background: #252122;
+	background: var(--background-color-dark);
 	color: var(--color-gray-70);
 	font-size: smaller;
 	text-align: right;
@@ -297,3 +294,14 @@ main article {
 	margin-right: 1em;
 }
 
+#banner {
+	background-image: url('./img/carmel_02.jpg');
+	background-position: center center;
+}
+#banner .inner-bg {
+	background: rgba(0, 0, 0, 0.3);
+	color: var(--color-gray-20)
+}
+#banner h2 {
+	color: var(--text-color-link-active);
+}
