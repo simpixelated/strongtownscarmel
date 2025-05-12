@@ -20,6 +20,9 @@
 	--text-color-link-active: #FFB549;
 	--text-color-link-visited: #A7C6ED;
 
+	--text-color-highlight: #FFB549;
+	--text-color-highlight-shadow: #0C2340;
+
 	--syntax-tab-size: 2;
 }
 
@@ -27,7 +30,8 @@
 	:root {
 		--color-gray-20: #e0e0e0;
 		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
+		--color-gray-70: #858484;
+		--color-gray-90: #c7c7c7;
 
 		/* --text-color is assigned to --color-gray-_ above */
 		--text-color-link: #FFB549;
@@ -302,6 +306,13 @@ main article {
 	background: rgba(0, 0, 0, 0.3);
 	color: var(--color-gray-20)
 }
+#banner .inner-bg > div {
+	/* https://getbootstrap.com/docs/5.3/utilities/background/#opacity */
+	--bs-bg-opacity: 0.75;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
 #banner h2 {
-	color: var(--text-color-link-active);
+	color: var(--text-color-highlight);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-shadow: 2px 2px var(--text-color-highlight-shadow);
 }
