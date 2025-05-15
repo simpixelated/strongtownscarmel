@@ -13,7 +13,7 @@
 
 	--background-color: #f7f7f7;
 	--background-color-alt: #ffffff;
-	--background-color-dark: #252122;
+	--background-color-dark: #0C2340;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #5790DB;
@@ -26,7 +26,7 @@
 	--syntax-tab-size: 2;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	:root {
 		--color-gray-20: #e0e0e0;
 		--color-gray-50: #C0C0C0;
@@ -34,14 +34,14 @@
 		--color-gray-90: #c7c7c7;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #FFB549;
+		/*--text-color-link: #FFB549;
 		--text-color-link-active: #fdc776;
 		--text-color-link-visited: #A7C6ED;
 
 		--background-color: #0C2340;
 		--background-color-alt: rgb(69, 85, 106);
 	}
-}
+} */
 
 
 /* Global stylesheet */
@@ -147,8 +147,20 @@ main :first-child {
 }
 
 header {
-	background: var(--background-color-alt);
-	border-bottom: solid 1px var(--color-gray-20);
+	background: var(--background-color-dark);
+	border-bottom: solid 1px var(--color-gray-70);
+}
+header a[href],
+header a[href]:visited {
+	color: var(--color-gray-20);
+}
+header a[href]:hover,
+header a[href]:active {
+	color: var(--color-gray-50);
+}
+
+header .navbar-nav .nav-link.active {
+	color: var(--color-gray-70);
 }
 
 .links-nextprev {
@@ -320,4 +332,11 @@ main article {
 	color: var(--text-color-highlight);
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-shadow: 2px 2px var(--text-color-highlight-shadow);
+}
+
+#banner .btn-warning {
+	 --bs-btn-bg: var(--text-color-highlight);
+}
+#banner .btn-warning a[href] {
+	color: var(--color-gray-90);
 }
