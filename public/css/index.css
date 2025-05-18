@@ -111,7 +111,7 @@ li {
 	line-height: 1.5;
 }
 
-a[href] {
+/* a[href] {
 	color: var(--text-color-link);
 }
 a[href]:visited {
@@ -120,7 +120,7 @@ a[href]:visited {
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
-}
+} */
 
 footer {
 	background: var(--background-color-dark);
@@ -128,8 +128,8 @@ footer {
 	font-size: smaller;
 	text-align: right;
 }
-footer a[href],
-footer a[href]:visited {
+footer a,
+footer a:visited {
 	color: var(--color-gray-50);
 }
 footer span {
@@ -150,17 +150,22 @@ header {
 	background: var(--background-color-dark);
 	border-bottom: solid 1px var(--color-gray-70);
 }
-header a[href],
-header a[href]:visited {
+header .nav-link,
+header .nav-link:visited {
 	color: var(--color-gray-20);
 }
-header a[href]:hover,
-header a[href]:active {
+header .nav-link:hover,
+header .nav-link:active {
 	color: var(--color-gray-50);
 }
-
 header .navbar-nav .nav-link.active {
 	color: var(--color-gray-70);
+}
+header .navbar-brand,
+header .navbar-brand:visited,
+header .navbar-brand:hover,
+header .navbar-brand:active {
+	color: var(--text-color-highlight);
 }
 
 .links-nextprev {
