@@ -1,19 +1,21 @@
-<div class="container">
+<div class="container post-list-featured">
   {%- for post in postslist | reverse %}
     {%- if loop.first %}
-    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary row">
-      <div class="col-lg-6 px-0">
-        <h1 class="display-4 fst-italic">{{post.data.title}}</h1>
-        <p class="lead my-3">{{post.data.intro}}</p>
-        <p class="lead mb-0">
-          <a href="{{post.url}}" class="text-body-emphasis fw-bold">Continue reading...</a>
-        </p>
-      </div>
-      <div class="col-lg-6 px-0">
-        <img
-          src="{{post.data.featured-image}}"
-          class="img-fluid rounded-start"
-          alt="Strong Towns Carmel">
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+      <div class="row">
+        <div class="col-lg-6 px-0">
+          <h3 class="display-5 fst-italic">{{post.data.title}}</h3>
+          <p class="lead my-3">{{post.data.intro}}</p>
+          <p class="lead mb-0">
+            <a href="{{post.url}}" class="text-body-emphasis fw-bold">Continue reading...</a>
+          </p>
+        </div>
+        <div class="col-lg-6 px-0">
+          <img
+            src="{{post.url}}/{{post.data.featuredimage}}"
+            class="img-fluid rounded"
+            alt="Strong Towns Carmel">
+        </div>
       </div>
     </div>
     {% else %}
