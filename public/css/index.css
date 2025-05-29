@@ -229,12 +229,16 @@ code {
 #home-about h3,
 .navbar-nav,
 .post-list-featured h3 {
-	font-family: var(--font-family-heading);
+	font-family: var(--font-family-article);
 }
 
 main article {
 	background-color: var(--background-color-alt);
 	font-family: var(--font-family-article);
+}
+
+main article h1 + p {
+	margin-top: 1em;
 }
 
 #banner {

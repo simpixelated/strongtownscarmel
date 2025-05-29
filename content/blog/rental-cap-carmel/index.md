@@ -7,6 +7,7 @@ tags:
   - policy
   - missing middle
   - housing
+intro: "Fishers and now Carmel are considering a registery to limit the number of single family rentals to just 10%."
 ---
 
 _This was originally published on [simpixelated.com](https://simpixelated.com). It has been reposted here with permission from the author._

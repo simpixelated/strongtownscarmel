@@ -62,11 +62,13 @@
 			{{ content | safe }}
 		</main>
 
-		<footer class="mt-auto py-4 px-4">
-			<p>
-				<span>Join our <a href="https://discord.gg/yYjkUjpjzs">Discord</a></span>
-				<span><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></span>
-			</p>
+		<footer class="mt-auto">
+			<div class="container py-3 px-4">
+				<p>
+					<span>Join our <a href="https://discord.gg/yYjkUjpjzs">Discord</a></span>
+					<span><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></span>
+				</p>
+			</div>
 		</footer>
 		{% getBundle "fontawesome" %}
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
