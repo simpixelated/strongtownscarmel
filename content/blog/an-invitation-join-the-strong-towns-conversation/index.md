@@ -5,6 +5,8 @@ canonical: https://www.dakotacrawford.com/building-in-carmel/an-invitation-join-
 tags:
   - missing middle
   - housing
+featuredimage: ./ST-Carmel-Blog-Post.jpg
+intro: "A small group of passionate advocates is building a Strong Towns Local Conversation in Carmel, Indiana. Maybe you’ll join us?"
 ---
 
 _This was originally published on [dakotacrawford.com](https://dakotacrawford.com). It has been reposted here with permission from the author._

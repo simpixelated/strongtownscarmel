@@ -5,6 +5,7 @@ canonical: https://simpixelated.com/the-autumn-greenway/
 tags:
   - transportation
   - bike lanes
+intro: "A citizen-led proposal for a new off street trail in Carmel that would add a much needed east-west connection to The Monon Trail."
 ---
 
 _This was originally written for [simpixelated.com](https://simpixelated.com) and reposted here with permission from the author._

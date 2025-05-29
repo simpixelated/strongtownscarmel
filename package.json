@@ -26,17 +26,17 @@
 	"engines": {
 		"node": ">=18"
 	},
-
 	"bugs": {
 		"url": "https://github.com/simpixelated/strongtownscarmel/issues"
 	},
 	"homepage": "https://github.com/simpixelated/strongtownscarmel#readme",
 	"devDependencies": {
-		"@11ty/eleventy": "^3.0.0",
+		"@11ty/eleventy": "^3.1.0",
 		"@11ty/eleventy-img": "^6.0.1",
 		"@11ty/eleventy-navigation": "^0.3.5",
 		"@11ty/eleventy-plugin-rss": "^2.0.2",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+		"@11ty/font-awesome": "^1.0.0-beta.1",
 		"cross-env": "^7.0.3",
 		"luxon": "^3.5.0",
 		"prismjs": "^1.29.0",

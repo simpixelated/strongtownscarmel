@@ -1,0 +1,50 @@
+<div class="container post-list-featured">
+  {%- for post in postslist | reverse %}
+    {%- if loop.first %}
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+      <div class="row">
+        <div class="col-lg-6 px-0">
+          <h3 class="display-5 fst-italic">{{post.data.title}}</h3>
+          <p class="lead my-3">{{post.data.intro}}</p>
+          <p class="lead mb-0">
+            <a href="{{post.url}}" class="text-body-emphasis fw-bold">Continue reading...</a>
+          </p>
+        </div>
+        <div class="col-lg-6 px-0">
+          <img
+            src="{{post.url}}/{{post.data.featuredimage}}"
+            class="img-fluid rounded"
+            alt="Strong Towns Carmel">
+        </div>
+      </div>
+    </div>
+    {% else %}
+    {% if loop.index == 2 %}<div class="row">{% endif %}
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary-emphasis text-capitalize">{{post.data.tags[1]}}</strong>
+            <h3 class="mb-0">{{post.data.title}}</h3>
+            <time class="mb-1 text-body-secondary" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+            <p class="card-text mb-4">{{post.data.intro}}</p>
+            <a href="{{post.url}}" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+            </a>
+          </div>
+          {% if post.data.featuredimage %}
+          <div class="col-auto d-none d-lg-block">
+            <img
+              src="{{post.url}}/{{post.data.featuredimage}}"
+              height="200"
+              alt="Strong Towns Carmel"
+            />
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {%- endif %}
+    {%- endfor %}
+    </div>
+  </div>
+</div>
