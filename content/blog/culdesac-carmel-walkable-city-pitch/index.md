@@ -5,7 +5,7 @@ canonical: https://www.dakotacrawford.com/building-in-carmel/culdesac-carmel-wal
 tags:
   - missing middle
   - housing
-featuredimage: https://images.squarespace-cdn.com/content/v1/6135348f065ee67bf028e4be/e128c7d8-551d-474b-8cd5-dd19506ea334/blog-image-for-culdesac.jpg
+featuredimage: assessed-value.png
 intro: "Culdesac Carmel would provide housing, inviting spaces for local workers and further cement Carmel as a placemaking leader among its suburban peers — all without putting more cars on the road."
 ---
 
