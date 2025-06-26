@@ -237,8 +237,27 @@ main article {
 	font-family: var(--font-family-article);
 }
 
+main article h1 {
+	font-size: 2em;
+	font-weight: 700;
+	margin-bottom: .75em;
+}
+
+main article h2 {
+	margin: 1em 0;
+}
+
+main article h3 {
+	margin: .75em 0;
+}
+
 main article h1 + p {
 	margin-top: 1em;
+}
+
+.post-content p,
+.post-content li {
+	line-height: 1.8em;
 }
 
 #banner {
