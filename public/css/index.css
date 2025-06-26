@@ -241,6 +241,11 @@ main article h1 + p {
 	margin-top: 1em;
 }
 
+.post-content p,
+.post-content li {
+	line-height: 1.8em;
+}
+
 #banner {
 	background-image: url('./img/carmel_02.jpg');
 	background-position: center center;
