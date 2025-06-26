@@ -23,7 +23,7 @@ And while city leadership maintains that Carmel is in a favorable position to pa
 
 “Because those tax revenues support our big TIF,” Finkham told the Current, “it’s of prime importance to us to make sure those revenues stay strong, so the residential taxpayer doesn’t have to make up the difference.”
 
-# What’s Wrong?
+## What’s Wrong?
 
 <figure class="figure">
   <img src="https://images.squarespace-cdn.com/content/v1/6135348f065ee67bf028e4be/83a3c637-a148-48e5-b4ce-57edb7e62995/parking-shot.jpg" class="figure-img img-fluid rounded" alt="Parking spaces along the Meridian Corridor are highlighted in red">
@@ -38,7 +38,7 @@ Mike Hollibaugh, Carmel’s Director of Community Services, has alluded to the n
 
 “Amenities would be in the form of public space, plaza and green space, not unlike Midtown, and having walkable destinations that can be shared with residents,” [he told the Current](https://youarecurrent.com/2024/12/15/seeking-a-spark-city-of-carmel-considering-ways-to-revitalize-redevelop-meridian-corridor-economic-engine/). “Whether we’re introducing housing is part of that, too, more than likely that would be the case. But these public amenities would be open to really anyone.”
 
-# A Big Vacancy & Opportunity
+## A Big Vacancy & Opportunity
 
 <figure class="figure">
   <img src="https://images.squarespace-cdn.com/content/v1/6135348f065ee67bf028e4be/1746509625605-AZ1IQDMWNWYNLAP2S6TA/Screen+Shot+2025-05-02+at+12.05.56+AM.png?format=2500w" class="figure-img img-fluid rounded" alt="Satellite image of property for sale in Carmel">
@@ -50,14 +50,14 @@ Though leaders like Finkam and Hollibaugh have shared broad thoughts on the Meri
 
 In the meantime, its assessed value falls, highlighting the revenue concerns Finkham shared in December. One parcel within the campus (530 College Dr.) saw its tax value fall by nearly 45 percent from 2019 ($950,000) to 2025 ($532,040).
 
-## 530 College Dr. Assessed Value (In Millions)
+### 530 College Dr. Assessed Value (In Millions)
 
 <figure class="figure">
   <img src="./assessed-value.png" class="figure-img img-fluid rounded" alt="Chart of assessed value trending downward">
   <figcaption class="figure-caption">Interested in reviewing this data? Check out <a href="https://secure2.hamiltoncounty.in.gov/PropertyReports/reports.aspx?parcel=1609350001015000&tab=currentownership">the county assessor’s breakdown</a>.</figcaption>
 </figure>
 
-# The Pitch: Culdesac Carmel
+## The Pitch: Culdesac Carmel
 
 <figure class="figure">
   <img src="https://images.squarespace-cdn.com/content/v1/6135348f065ee67bf028e4be/25585ab5-ae26-4fd9-8f8f-bc454d4a41d1/Screen+Shot+2025-05-02+at+4.57.02+PM.jpg" class="figure-img img-fluid rounded" alt="Image of people having a great time">
@@ -70,7 +70,7 @@ Let’s turn the property on its head by partnering with Culdesac, the developer
 
 A 90 percent occupancy rate and [review](https://www.dwell.com/article/culdesac-tempe-car-free-neighborhood-resident-experience-8a14ebc7) after glowing [review](https://www.nytimes.com/2025/03/25/climate/car-free-arizona.html) suggest the bet on walkability is paying off. The development is a work in progress with 288 of 730 planned apartment units complete, but business is already booming and residents are thriving.
 
-# Growing Without Traffic? Win-Win
+## Growing Without Traffic? Win-Win
           
 <figure class="figure">
   <img src="https://images.squarespace-cdn.com/content/v1/6135348f065ee67bf028e4be/d0cb0a41-000d-4222-8757-087e22445dee/Screen+Shot+2025-05-05+at+4.39.15+PM.png" class="figure-img img-fluid rounded" alt="Image of people on bikes">
@@ -83,7 +83,7 @@ This is a key point because Carmel is going to keep growing, but its road networ
 
 The more we invest in walkable, mixed-use developments, the more convenient it will be for more people to take trips without their car. And that is the best way to keep our roundabouts roundabout-ing.
 
-# Efficient Growth & Prosperity
+## Efficient Growth & Prosperity
 
 A [Dwell article](https://www.dwell.com/article/culdesac-tempe-car-free-neighborhood-resident-experience-8a14ebc7) calls out nearby economic growth, too, proving that Culdesac’s value isn’t confined to its walkable paseos. As it builds up, so are the nearby neighborhoods that flank a high-speed rail line linking Tempe to Phoenix. Unique, innovative growth has a way of benefiting the entire community.
 
@@ -102,7 +102,7 @@ The parking lot outside of one nearby corporate property swallows up nearly 14.
   <figcaption class="figure-caption">Just one surface parking lot along US-31 could nearly house an entire Culdesac development (700+ apartment units, 20+ businesses, plazas, green spaces and more or … parking. Take your pick!).</figcaption>
 </figure>
 
-# The Meridian Corridor of Tomorrow
+## The Meridian Corridor of Tomorrow
 
 The Meridian Corridor can’t be redeveloped overnight nor through one project. But the CNO Financial campus, at 78 acres, is big enough to set in motion our move toward an innovative place that is pleasant and, critically, drives revenue through residential taxpayers and corporate mixed-use development.
 
