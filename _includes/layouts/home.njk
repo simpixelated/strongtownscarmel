@@ -12,11 +12,11 @@ layout: layouts/base.njk
   </div>
 </section>
 
-<section id="home-about" class="container mb-4">
+<section id="home-about" class="container mb-4 col-lg-8">
   <h2 class="text-center">Our Mission</h2>
   <div class="row row-cols-1 row-cols-lg-3 gx-3">
-    <div class="col border-end">
-      <div class="p-3 d-flex">
+    <div class="col pe-3 border-end">
+      <div class="py-3 d-flex">
         <div class="d-inline-flex align-items-start justify-content-center fs-4 flex-shrink-0 me-3">
           <i class="icon fa-solid fa-house-user"></i>
         </div>
@@ -26,8 +26,8 @@ layout: layouts/base.njk
         </div>
       </div>
     </div>
-    <div class="col border-end">
-      <div class="p-3 d-flex">
+    <div class="col px-3 border-end">
+      <div class="py-3 d-flex">
         <div class="d-inline-flex align-items-start justify-content-center fs-4 flex-shrink-0 me-3">
           <i class="icon fa-solid fa-person-biking"></i>
         </div>
@@ -37,8 +37,8 @@ layout: layouts/base.njk
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="p-3 d-flex">
+    <div class="col ps-3">
+      <div class="py-3 d-flex">
         <div class="d-inline-flex align-items-start justify-content-center fs-4 flex-shrink-0 me-3">
           <i class="icon fa-solid fa-file-invoice-dollar"></i>
         </div>
@@ -52,6 +52,6 @@ layout: layouts/base.njk
 </section>
 
 <!-- latest blog posts -->
-<div class="container">
+<div class="container col-lg-8">
   {{ content | safe }}
 </div>
