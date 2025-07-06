@@ -12,16 +12,25 @@ We're a group of Carmel citizens who care about making our city an even greater 
 
 ## Our Mission
 
-### Legalize Housing Choice</h3>
+### Legalize Housing Choice
 Carmel is an amazing place to live and we want our children, teachers, firefighters, and service workers to afford living here. We advocate for small zoning changes to allow missing middle housing without destroying existing neighborhood character.
+
+How we do it:
+- [How to build "missing middle" housing in Carmel](/blog/how-to-build-missing-middle-in-carmel/)
 
 ### Create Safe and Productive Streets
 
 Monon Boulevard shows how streets designed for everyone's safety are valued by businesses, residents, and visitors. We aim to extend this to all of Carmel, benefitting residents with vibrant and safe streets. We support quick and cheap improvements rather than costly, long-term projects.
 
+How we do it:
+- [An idea for a new east/west off-street trail](blog/the-autumn-greenway/)
+
 ### Reduce Parking Mandates
 
 We question using our limited land for car storage. Parking minimums waste valuable space, drain city resources, reduce green areas, and increase housing and business development costs. We advocate for fewer parking mandates to create more people-centered spaces.
+
+How we do it:
+- [A vision for a car-free development along Carmel's Meridian Corridor](/blog/culdesac-carmel-walkable-city-pitch/)
 
 ## Our History
 
