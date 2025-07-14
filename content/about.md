@@ -23,7 +23,7 @@ How we do it:
 Monon Boulevard shows how streets designed for everyone's safety are valued by businesses, residents, and visitors. We aim to extend this to all of Carmel, benefitting residents with vibrant and safe streets. We support quick and cheap improvements rather than costly, long-term projects.
 
 How we do it:
-- [An idea for a new east/west off-street trail](blog/the-autumn-greenway/)
+- [An idea for a new east/west off-street trail](/blog/the-autumn-greenway/)
 
 ### Reduce Parking Mandates
 
