@@ -8,12 +8,21 @@ tags:
 intro: "A citizen-led proposal for a new off street trail in Carmel that would add a much needed east-west connection to The Monon Trail."
 ---
 
-This vison for this proposed off-street path is to connect the urban cores of Carmel. It would add a roughly one mile extension to the Monon Trail, starting from Autumn Drive, connecting to 126th Street, and eventually ending at Old Meridian Street. This would provide a pleasant and safe connection to the farmer’s market, restaurants, groceries, and more, for thousands of residents who currently live just out of walking distance of the Monon Trail.
+The vison for this off-street path is to connect the urban cores of Carmel. It would add a roughly one mile extension to the Monon Trail, starting from Autumn Drive, connecting to 126th Street, and eventually ending at Old Meridian Street. It would provide a pleasant and safe connection to the farmer’s market, restaurants, groceries, and more, for thousands of residents who currently live just out of walking distance of the Monon Trail.
 
 <figure class="figure">
   <img src="trail-map.png" class="figure-img img-fluid rounded" alt="map showing path route">
   <figcaption class="figure-caption">Proposed route</figcaption>
 </figure>
+
+##### Why We Need This
+
+- there are no east-west off-street paths of the level of the Monon Trail
+- providing a direct route, separated from vehicle traffic, enables people of all ages to travel through central Carmel comfortably
+- alternative transportation reduces traffic, wear and tear on our roads, and the amount of parking we need
+- adds safe routes to central Carmel schools (which are notorious for creating traffic)
+- history proves that it will raise property values for everything along the trail route
+- adds another park-like amenity, building value and attraction to residents, businesses, and tourists
 
 The Autumn Greenway represents more than just another path—it’s a vital east-west connection that matches the high standard set by the Monon Trail, which has transformed how we live, commute, and connect with local businesses. Many of us rely on the Monon daily to replace car trips, promote healthy living, and support Carmel’s vibrant restaurant and retail economy. The Monon’s key to success is clear: it is fully separated from vehicular traffic, ensuring safety for children, families, and cyclists of all ages.
 
