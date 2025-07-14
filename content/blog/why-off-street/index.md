@@ -24,7 +24,12 @@ While we mostly accept this constant risk to our lives, Carmel has done more tha
 
 ## The Solution
 
-This is why I’m in favor of a proposed trail that would be just that: the [Autumn Greenway](/blog/the-autumn-greenway/). It will provide another off-street path that connects communities in Carmel with the amenities that already exist along The Monon.
+<figure class="figure">
+  <img src="/blog/the-autumn-greenway/trail-map.png" class="figure-img img-fluid rounded" alt="map showing path route">
+  <figcaption class="figure-caption">Proposed route for the Autumn Greenway (<a href="/blog/the-autumn-greenway/">learn more</a>)</figcaption>
+</figure>
+
+Having a direct connection separated from traffic is why I’m in favor of the [Autumn Greenway](/blog/the-autumn-greenway/). It will provide another off-street path that connects communities in Carmel with the amenities that already exist along The Monon.
 
 <figure class="alert alert-primary">
   <blockquote class="blockquote">
