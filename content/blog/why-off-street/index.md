@@ -5,7 +5,7 @@ tags:
   - transportation
   - bike lanes
   - autumn greenway
-intro: "I want everyone to feel as safe walking and riding everywhere Carmel, not just along the Monon. A new proposed off-street path would take our city to the next level."
+intro: "Everyone should feel safe walking and riding everywhere Carmel, not just along the Monon. A new proposed off-street path would take our city to the next level."
 featuredimage: 54270807853_7bfd3dc4b8_b.jpg
 ---
 
