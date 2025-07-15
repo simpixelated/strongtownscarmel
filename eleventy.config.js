@@ -76,7 +76,7 @@ export default async function(eleventyConfig) {
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
-		formats: ["webp", "auto"],
+		formats: ["webp", "avif"],
 
 		widths: [400, 800, 1280],
 
@@ -98,9 +98,9 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addShortcode('backgroundCSSImage', async (src) => {
 		return (await Image(src, {
 			outputDir: '_site/img/',
-			formats: ["jpeg"],
+			formats: ["avif"],
 			widths: [1200],
-		})).jpeg[0].url;
+		})).avif[0].url;
 	});
 
 	// Filters
