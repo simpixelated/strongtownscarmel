@@ -261,8 +261,8 @@ main article h1 + p {
 }
 
 #banner {
-	background-image: url('./img/carmel_02.jpg');
 	background-position: center center;
+	background-size: cover;
 }
 #banner .inner-bg {
 	background: rgba(0, 0, 0, 0.3);
