@@ -76,7 +76,7 @@ export default async function(eleventyConfig) {
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
-		formats: ["webp", "avif"],
+		formats: ["webp", "avif", "png"],
 
 		widths: [400, 800, 1280],
 
@@ -116,6 +116,11 @@ export default async function(eleventyConfig) {
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();
+	});
+
+	eleventyConfig.addFilter('console', function(value) {
+			const str = JSON.stringify(value);
+			return `<div style="white-space: pre-wrap;">${unescape(str)}</div>;`
 	});
 
 	// Features to make your build faster (when you need them)
