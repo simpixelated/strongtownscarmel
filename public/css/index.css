@@ -151,6 +151,11 @@ header {
 	background: var(--background-color-dark);
 	border-bottom: solid 1px var(--color-gray-70);
 }
+header .nav-item {
+	font-size: 1.125em;
+	margin: 0 .5em;
+}
+
 header .nav-link,
 header .nav-link:visited {
 	color: var(--color-gray-20);
@@ -167,6 +172,10 @@ header .navbar-brand:visited,
 header .navbar-brand:hover,
 header .navbar-brand:active {
 	color: var(--text-color-highlight);
+}
+
+header .navbar-brand img {
+	filter: brightness(0) invert(1);
 }
 
 .links-nextprev {
