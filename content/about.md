@@ -3,7 +3,8 @@ const eleventyNavigation = {
 	key: "About",
 	order: 4
 };
-layout: layouts/page.njk
+const layout = 'layouts/page.njk';
+const title = 'About Us';
 ---
 
 # About US
