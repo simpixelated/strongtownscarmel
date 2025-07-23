@@ -50,3 +50,7 @@ Here’s the transcript of my public comment:
 > We think these three projects: improving our path network, adding public transit, and legalizing more housing choices, will have the most impact on achieving Carmel’s climate goals. I look forward to working together on these and other ways to improve Carmel. I welcome everyone to join our monthly meetings. You can learn more at strongtownscarmel.org. Thank you for your time today.
 
 If you are interested in helping build a better Carmel and advocating for safe and productive streets, public transportation, and more housing choices, please [join us](https://strongtownscarmel.org/join/)!
+
+---
+
+_**I’m Jordan Kohl**, Carmel resident, Strong Towns Carmel volunteer, and an advocate for walking and biking. You can follow me on [BlueSky](https://bsky.app/profile/simpixelated.bsky.social) or my [personal website](https://simpixelated.com/)._
