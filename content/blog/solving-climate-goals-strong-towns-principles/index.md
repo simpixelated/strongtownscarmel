@@ -9,6 +9,7 @@ tags:
   - autumn greenway
   - bike lanes
   - climate
+intro: We are focused on making Carmel an even safer and more joyous place to walk, bike, and (hopefully someday soon) ride public transit. Better options for replacing car trips will make Carmel stronger, sustainable, and help achieve our Climate Action Plan goals by lowering our dependency on greenhoue-gas emitting vehicles.
 ---
 
 We participated in an official city hall meeting for the first time as a group at the Climate Action Advisory Committee, which is an advisory committee to the mayor for helping achieve Carmel’s [Climate Action Plan](https://climatecarmel.com/) goals.
