@@ -11,7 +11,7 @@ tags:
   - climate
 ---
 
-We participated in an official city hall meeting for the first time as a group at the Climate Action Committee in Carmel, which is an advisory committee to the mayor for helping achieve Carmel’s [Climate Action Plan](https://climatecarmel.com/) goals.
+We participated in an official city hall meeting for the first time as a group at the Climate Action Advisory Committee, which is an advisory committee to the mayor for helping achieve Carmel’s [Climate Action Plan](https://climatecarmel.com/) goals.
 
 <figure class="figure">
   <img src="2025-07-22_18-47-13_679_-_Edited.jpg" class="figure-img img-fluid rounded" alt="photo of Strong Towns Carmel members in city hall">
