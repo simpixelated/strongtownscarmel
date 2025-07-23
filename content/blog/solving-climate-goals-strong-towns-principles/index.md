@@ -18,11 +18,11 @@ We participated in an official city hall meeting for the first time as a group a
   <figcaption class="figure-caption">Strong Towns Carmel members at city hall</figcaption>
 </figure>
 
-While Strong Towns does not have the specific goal of fighting climate change, the founder of Strong Towns, believes that a [bottom-up revolution](https://www.strongtowns.org/journal/2022/7/13/for-those-who-wish-wed-talk-about-climate-change-more) is going to be more successful than top-town legislation. Most of their campaigns align in that they produce the same result: lower dependency on green-house gas (GHG) emitting vehicles, fewer asphalt covered heat-islands, more carbon storing street trees, and re-use and adaptation of existing infrastructure.
+While Strong Towns does not have a specific goal of fighting climate change, the founder of Strong Towns believes that a [bottom-up revolution](https://www.strongtowns.org/journal/2022/7/13/for-those-who-wish-wed-talk-about-climate-change-more) is going to be more successful than top-town legislation. A majority of Strong Towns' campaigns combat climate change by lowering dependency on cars, reducing asphalt covered heat-islands, planting more carbon storing street trees, and re-using and adapting existing infrastructure.
 
-For Strong Towns Carmel, we are focused on making Carmel an even safer and joyous place to walk, bike, and hopefully someday soon, ride transit. We want better options for people to replace a car trip because it helps make our cities stronger, more resilient, and livable. Getting people to replace a car trip will also lower GHG emissions, which is a specific goal of the Climate Action Plan.
+Strong Towns Carmel is focused on making Carmel an even safer and more joyous place to walk, bike, and (hopefully someday soon) ride public transit. Better options for replacing car trips will make Carmel stronger and more sustainable, while also lowering greenhoue-gas (GHG) emissions -- a specific goal of the Climate Action Plan.
 
-At the meeting I spoke to our advocacy for three things in Carmel: more safe routes for walking and biking, public transportation, and legalizing missing middle housing. You can watch me speak about 3 minutes into this video:
+At the meeting I spoke to our advocacy for three things in Carmel: safer routes for walking and biking, funding public transportation, and legalizing missing middle housing. You can listen to my public comment about 3 minutes into this video:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_MOxjvd7rVE?si=NXjs6I_iU0ma75lt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mb-2"></iframe>
 
