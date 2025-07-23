@@ -19,9 +19,9 @@ We participated in an official city hall meeting for the first time as a group a
   <figcaption class="figure-caption">Strong Towns Carmel members at city hall</figcaption>
 </figure>
 
-While Strong Towns does not have a specific goal of fighting climate change, the founder of Strong Towns believes that a [bottom-up revolution](https://www.strongtowns.org/journal/2022/7/13/for-those-who-wish-wed-talk-about-climate-change-more) is going to be more successful than top-town legislation. A majority of Strong Towns' campaigns combat climate change by lowering dependency on cars, reducing asphalt covered heat-islands, planting more carbon storing street trees, and re-using and adapting existing infrastructure.
+While Strong Towns does not have a specific goal of fighting climate change, the founder of Strong Towns believes that a [bottom-up revolution](https://www.strongtowns.org/journal/2022/7/13/for-those-who-wish-wed-talk-about-climate-change-more) is going to be more successful than top-town legislation. A majority of Strong Towns' campaigns combat climate change by lowering dependency on cars, reducing asphalt covered heat-islands, planting more carbon-storing street trees, and re-using and adapting existing infrastructure.
 
-Strong Towns Carmel is focused on making Carmel an even safer and more joyous place to walk, bike, and (hopefully someday soon) ride public transit. Better options for replacing car trips will make Carmel stronger and more sustainable, while also lowering greenhoue-gas (GHG) emissions -- a specific goal of the Climate Action Plan.
+Strong Towns Carmel is focused on making Carmel an even safer and more joyous place to walk, bike, and (hopefully someday soon) ride public transit. Better options for replacing car trips will make Carmel stronger and more sustainable, while also lowering greenhouse-gas (GHG) emissions -- a specific goal of the Climate Action Plan.
 
 At the meeting I spoke to our advocacy for three things in Carmel: safer routes for walking and biking, funding public transportation, and legalizing missing middle housing. You can listen to my public comment about 3 minutes into this video:
 
