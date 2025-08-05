@@ -13,4 +13,4 @@ Where: Midtown Plaza Carmel, next to the Monon Trail - 365 Monon Blvd, Carmel, I
 
 Join us for our monthly meeting to discuss local development, infrastructure, and community resilience.
 
-See this event on [Google Calendar](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cjk5cjF2YnVscW45N2VjOTRuOTZxMGJzM3NfMjAyNTA4MjNUMTUwMDAwWiA2Y2E0MzNkNmRmZTAwNWZjYWRhMjNhODVkMGYxYzg4MjJiMmFjNzdmZjg5MDgxMjUwNWZmNjcxZTRmODU4MmNmQGc&tmsrc=6ca433d6dfe005fcada23a85d0f1c8822b2ac77ff890812505ff671e4f8582cf%40group.calendar.google.com&scp=ALL)
+Copy to [Google Calendar](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cjk5cjF2YnVscW45N2VjOTRuOTZxMGJzM3NfMjAyNTA4MjNUMTUwMDAwWiA2Y2E0MzNkNmRmZTAwNWZjYWRhMjNhODVkMGYxYzg4MjJiMmFjNzdmZjg5MDgxMjUwNWZmNjcxZTRmODU4MmNmQGc&tmsrc=6ca433d6dfe005fcada23a85d0f1c8822b2ac77ff890812505ff671e4f8582cf%40group.calendar.google.com&scp=ALL)

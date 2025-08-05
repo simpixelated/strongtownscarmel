@@ -179,10 +179,10 @@ header .navbar-brand:active {
 }
 
 header .navbar-brand {
-	max-width: 240px;
+	max-width: 200px;
 }
-header .navbar-brand img {
-	filter: brightness(0) invert(1);
+.home header .navbar-brand {
+	visibility: hidden;
 }
 
 .links-nextprev {

@@ -78,16 +78,16 @@
 		{#- Add the heading-anchors web component to the JavaScript bundle #}
 		{%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
 	</head>
-	<body class="d-flex flex-column min-vh-100">
+	<body class="d-flex flex-column min-vh-100{%- if page.url == '/' %} home{% endif %}">
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 		<header>
 			<div class="container col-lg-8 py-2">
 				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-				<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+				<nav class="navbar navbar-expand navbar-light bg-transparent">
 					<div class="container-fluid">
 						<h2 class="visually-hidden">Top level navigation menu</h2>
 						<a class="navbar-brand home-link" href="/"><img src="/img/logo-WHITE-Primary.png" alt="{{ metadata.title }}" /></a>
-						<ul class="navbar-nav">
+						<ul class="navbar-nav ms-auto">
 						{%- for entry in collections.all | eleventyNavigation %}
 							<li class="nav-item"><a class="nav-link{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 						{%- endfor %}
