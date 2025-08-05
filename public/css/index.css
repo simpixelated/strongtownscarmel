@@ -179,7 +179,7 @@ header .navbar-brand:active {
 }
 
 header .navbar-brand {
-	max-width: 100px;
+	max-width: 240px;
 }
 header .navbar-brand img {
 	filter: brightness(0) invert(1);
