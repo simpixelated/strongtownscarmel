@@ -1,10 +1,10 @@
 ---
 date: 2025-08-05
-title: "Monthly Meeting: Strong Towns Carmel"
+title: "Join Us in August for our Monthly Meeting!"
 tags:
   - events
-featuredimage: assessed-value.png
-intro: ""
+featuredimage: dark-blue-on-light-blue.jpg
+intro: "Join us for our monthly meeting to discuss local development, infrastructure, and community resilience."
 ---
 
 ## Strong Towns Carmel: Monthly Meeting
