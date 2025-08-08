@@ -127,7 +127,6 @@ footer {
 	background: var(--background-color-dark);
 	color: var(--color-gray-70);
 	font-size: smaller;
-	text-align: right;
 }
 footer a,
 footer a:visited {
@@ -147,6 +146,11 @@ footer span:first-child {
 	padding-left: 0;
 	margin-left: 0;
 }
+footer .fa {
+	width: 24px;
+	height: 24px;
+}
+
 main :first-child {
 	margin-top: 0;
 }
@@ -179,10 +183,10 @@ header .navbar-brand:active {
 }
 
 header .navbar-brand {
-	max-width: 100px;
+	max-width: 200px;
 }
-header .navbar-brand img {
-	filter: brightness(0) invert(1);
+.home header .navbar-brand {
+	visibility: hidden;
 }
 
 .links-nextprev {
@@ -293,6 +297,9 @@ main article h1 + p {
 	color: var(--text-color-highlight);
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-shadow: 2px 2px var(--text-color-highlight-shadow);
+}
+#banner img {
+	filter: brightness(0) saturate(100%) invert(83%) sepia(8%) saturate(5548%) hue-rotate(324deg) brightness(108%) contrast(103%);
 }
 
 #banner .btn-warning {

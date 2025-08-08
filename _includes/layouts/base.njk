@@ -78,16 +78,16 @@
 		{#- Add the heading-anchors web component to the JavaScript bundle #}
 		{%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
 	</head>
-	<body class="d-flex flex-column min-vh-100">
+	<body class="d-flex flex-column min-vh-100{%- if page.url == '/' %} home{% endif %}">
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 		<header>
-			<div class="container col-lg-8 py-2">
+			<div class="container col-xl-8 py-2">
 				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-				<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+				<nav class="navbar navbar-expand navbar-light bg-transparent">
 					<div class="container-fluid">
 						<h2 class="visually-hidden">Top level navigation menu</h2>
-						<a class="navbar-brand home-link" href="/"><img src="/img/STC-full.png" alt="{{ metadata.title }}" /></a>
-						<ul class="navbar-nav">
+						<a class="navbar-brand home-link" href="/"><img src="/img/logo-WHITE-Primary.png" alt="{{ metadata.title }}" /></a>
+						<ul class="navbar-nav ms-auto">
 						{%- for entry in collections.all | eleventyNavigation %}
 							<li class="nav-item"><a class="nav-link{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 						{%- endfor %}
@@ -102,11 +102,13 @@
 		</main>
 
 		<footer class="mt-auto">
-			<div class="container col-lg-8 py-3 px-4">
-				<p>
-					<span>Join our <a href="https://discord.gg/yYjkUjpjzs">Discord</a></span>
-					<span><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></span>
-				</p>
+			<div class="container col-xl-8 py-3 px-4 d-flex justify-content-between">
+				<p class="col-md-4 my-0"><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></p>
+				<ul class="col-md-4 justify-content-end list-unstyled d-flex my-0">
+					<li class="ms-3"><a href="https://bsky.app/profile/strongtowns-carmel.bsky.social"><i class="fa fa-brands fa-bluesky"></i></a></li>
+					<li class="ms-3"><a href="https://www.instagram.com/strongtowns_carmel/"><i class="fa fa-brands fa-instagram"></i></a></li>
+					<li class="ms-3"><a href="https://www.linkedin.com/groups/14719624/"><i class="fa fa-brands fa-linkedin"></i></a></li>
+				</ul>
 			</div>
 		</footer>
 		{% getBundle "fontawesome" %}

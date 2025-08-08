@@ -6,14 +6,14 @@ layout: layouts/base.njk
 <section id="banner" class="p-0 mb-4 text-center" style="background-image: url('{% backgroundCSSImage "public/img/carmel_02.jpg" %}'); background-position: center center;">
   <div class="inner-bg my-0 py-5">
     <div class="col-lg-6 p-3 my-5 mx-auto rounded">
-      <h2 class="display-4 fw-bold">Strong Towns Carmel</h2>
+      <img src="/img/logo-WHITE-Primary.png" alt="{{ metadata.title }}" width="790" />
       <p>Bringing residents together to create a more people-oriented, resilient and fiscally responsible Carmel.</p>
       <a class="btn btn-warning btn-lg px-5" href="/join" role="button">Get Involved</a>
     </div>
   </div>
 </section>
 
-<section id="home-about" class="container mb-4 col-lg-8">
+<section id="home-about" class="container mb-4 col-xl-8">
   <h2 class="text-center">Our Mission</h2>
   <div class="row row-cols-1 row-cols-lg-3 gx-3">
     <div class="col px-3 border-end">
@@ -53,6 +53,6 @@ layout: layouts/base.njk
 </section>
 
 <!-- latest blog posts -->
-<div class="container col-lg-8">
+<div class="container col-xl-8">
   {{ content | safe }}
 </div>
