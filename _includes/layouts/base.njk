@@ -102,11 +102,13 @@
 		</main>
 
 		<footer class="mt-auto">
-			<div class="container col-lg-8 py-3 px-4">
-				<p>
-					<span>Join our <a href="https://discord.gg/yYjkUjpjzs">Discord</a></span>
-					<span><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></span>
-				</p>
+			<div class="container col-lg-8 py-3 px-4 d-flex justify-content-between">
+				<p class="col-md-4 my-0"><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></p>
+				<ul class="col-md-4 justify-content-end list-unstyled d-flex my-0">
+					<li class="ms-3"><a href="https://bsky.app/profile/strongtowns-carmel.bsky.social"><i class="fa fa-brands fa-bluesky"></i></a></li>
+					<li class="ms-3"><a href="https://www.instagram.com/strongtowns_carmel/"><i class="fa fa-brands fa-instagram"></i></a></li>
+					<li class="ms-3"><a href="https://www.linkedin.com/groups/14719624/"><i class="fa fa-brands fa-linkedin"></i></a></li>
+				</ul>
 			</div>
 		</footer>
 		{% getBundle "fontawesome" %}

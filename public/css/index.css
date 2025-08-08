@@ -127,7 +127,6 @@ footer {
 	background: var(--background-color-dark);
 	color: var(--color-gray-70);
 	font-size: smaller;
-	text-align: right;
 }
 footer a,
 footer a:visited {
@@ -147,6 +146,11 @@ footer span:first-child {
 	padding-left: 0;
 	margin-left: 0;
 }
+footer .fa {
+	width: 24px;
+	height: 24px;
+}
+
 main :first-child {
 	margin-top: 0;
 }
