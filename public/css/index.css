@@ -15,6 +15,7 @@
 	--background-color: #f7f7f7;
 	--background-color-alt: #ffffff;
 	--background-color-dark: #0C2340;
+	--background-color-medium: #a6c6ee;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #5790DB;
@@ -245,6 +246,10 @@ code {
 	width: 1.25em;
 	height: 1.25em;
 }
+
+/* .post-list-featured > div:first-child {
+	background-color: var(--background-color-medium);
+} */
 
 #home-about h3,
 .navbar-nav,
