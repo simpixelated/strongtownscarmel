@@ -294,6 +294,9 @@ main article h1 + p {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-shadow: 2px 2px var(--text-color-highlight-shadow);
 }
+#banner img {
+	filter: brightness(0) saturate(100%) invert(83%) sepia(8%) saturate(5548%) hue-rotate(324deg) brightness(108%) contrast(103%);
+}
 
 #banner .btn-warning {
 	 --bs-btn-bg: var(--text-color-highlight);

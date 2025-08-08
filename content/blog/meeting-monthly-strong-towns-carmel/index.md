@@ -5,6 +5,7 @@ tags:
   - events
 featuredimage: dark-blue-on-light-blue.jpg
 intro: "Join us for our monthly meeting to discuss local development, infrastructure, and community resilience."
+draft: true
 ---
 
 ## Strong Towns Carmel: Monthly Meeting
