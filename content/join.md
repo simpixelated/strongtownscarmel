@@ -9,11 +9,9 @@ const title = 'Get Involved';
 
 # Get Involved
 
-Subscribe to our [Google calendar](https://calendar.google.com/calendar/u/0?cid=NmNhNDMzZDZkZmUwMDVmY2FkYTIzYTg1ZDBmMWM4ODIyYjJhYzc3ZmY4OTA4MTI1MDVmZjY3MWU0Zjg1ODJjZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) for events.
-
 Email us at [strongtownscarmel@gmail.com](mailto:strongtownscarmel@gmail.com).
 
-Fill out this form to get reminders and updates on our events and activities:
+Subscribe to our newseltter for event reminders and other local Carmel news:
 
 <div id="mc_embed_shell" class="col-lg-6">
   

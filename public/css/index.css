@@ -15,6 +15,7 @@
 	--background-color: #f7f7f7;
 	--background-color-alt: #ffffff;
 	--background-color-dark: #0C2340;
+	--background-color-medium: #a6c6ee;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #5790DB;
@@ -246,9 +247,19 @@ code {
 	height: 1.25em;
 }
 
+/* .post-list-featured > div:first-child {
+	background-color: var(--background-color-medium);
+} */
+
+.post-list-featured .fa {
+	width: 12px;
+	height: 12px;
+}
+
 #home-about h3,
 .navbar-nav,
-.post-list-featured h3 {
+.post-list-featured h3,
+.post-list-featured h4 {
 	font-family: var(--font-family-article);
 }
 

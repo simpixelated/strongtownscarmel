@@ -1,39 +1,55 @@
 <div class="container post-list-featured">
   {%- for post in postslist | reverse %}
     {%- if loop.first %}
-    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-light-subtle position-relative">
       <div class="row">
-        <div class="col-lg-6 px-0">
+        <div class="col-lg-8">
           <h3 class="display-5 fst-italic">{{post.data.title}}</h3>
           <p class="lead my-3">{{post.data.intro}}</p>
           <p class="lead mb-0">
-            <a href="{{post.url}}" class="text-body-emphasis fw-bold">Continue reading...</a>
+            <a href="{{post.url}}" class="text-body-emphasis fw-bold stretched-link">Continue reading...</a>
           </p>
         </div>
-        <div class="col-lg-6 px-0">
-          <img
-            src="{{post.url}}/{{post.data.featuredimage}}"
-            class="img-fluid rounded"
-            alt="Strong Towns Carmel">
+        <div class="col-lg-4">
+          <div>
+            <img
+              src="{{post.url}}/{{post.data.featuredimage}}"
+              class="img-fluid rounded"
+              alt="Strong Towns Carmel"
+            />
+          </div>
         </div>
       </div>
     </div>
-    {% else %}
+    {% elseif loop.index <= 3 %}
     {% if loop.index == 2 %}<div class="row">{% endif %}
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static">
+          <div class="col p-4 d-flex flex-column">
             <strong class="d-inline-block mb-2 text-primary-emphasis text-capitalize">{{post.data.tags[1]}}</strong>
-            <h3 class="mb-0">{{post.data.title}}</h3>
-            <time class="mb-1 text-body-secondary" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
-            <p class="card-text mb-4">{{post.data.intro}}</p>
+            <h3>{{post.data.title}}</h3>
+            <h6><time class="text-body-secondary" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time></h6>
+            <p class="card-text mb-4">{{post.data.intro.slice(0, 180)}}...</p>
             <a href="{{post.url}}" class="icon-link gap-1 icon-link-hover stretched-link">
               Continue reading
-              <svg class="bi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+              <i class="bi fa fa-solid fa-angles-right"></i>
             </a>
           </div>
         </div>
       </div>
+      {% else %}
+        <div class="col-md-12">
+          <div class="row g-0">
+            <div class="card mb-4 bg-body-tertiary shadow-sm border">
+              <div class="card-body p-4">
+                <h4 class="card-title">{{post.data.title}}</h4>
+                <h6><time class="text-body-secondary" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time></h6>
+                <p class="card-text">{{post.data.intro}}</p>
+                <a href="{{post.url}}" class="card-link icon-link gap-1 icon-link-hover stretched-link">Continue reading<i class="bi fa fa-solid fa-angles-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       {%- endif %}
     {%- endfor %}
     </div>

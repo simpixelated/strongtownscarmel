@@ -4,7 +4,7 @@ const eleventyNavigation = {
 	order: 1
 };
 
-const numberOfLatestPostsToShow = 3;
+const numberOfLatestPostsToShow = 6;
 const layout = "layouts/home.njk";
 ---
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
