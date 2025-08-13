@@ -5,7 +5,6 @@ const eleventyNavigation = {
 };
 const layout = 'layouts/page.njk';
 const title = 'Upcoming Events';
-const draft = true;
 ---
 
 # Upcoming Events
@@ -25,7 +24,7 @@ const draft = true;
 
 ### September 
 
-<div class="card">
+<!-- <div class="card">
   <div class="card-header">
     Monthly Member Meeting
   </div>
@@ -34,4 +33,4 @@ const draft = true;
     <p class="card-text">We're meeting on September 27th at 11am.</p>
     <a href="/blog/meeting-monthly-strong-towns-carmel-sept/" class="btn btn-primary">Details</a>
   </div>
-</div>
+</div> -->
