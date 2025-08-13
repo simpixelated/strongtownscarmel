@@ -11,7 +11,7 @@ const title = 'Get Involved';
 
 Email us at [strongtownscarmel@gmail.com](mailto:strongtownscarmel@gmail.com).
 
-Fill out this form to get reminders and updates on our events and activities:
+Subscribe to our newseltter for event reminders and other local Carmel news:
 
 <div id="mc_embed_shell" class="col-lg-6">
   
