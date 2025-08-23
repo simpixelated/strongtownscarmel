@@ -4,7 +4,6 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import Image, { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import fontAwesomePlugin from "@11ty/font-awesome";
-import implicitFigures from "markdown-it-image-figures";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -77,7 +76,7 @@ export default async function(eleventyConfig) {
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
-		formats: ["webp", "avif", "png", "jpg"],
+		formats: ["webp", "avif", "png"],
 
 		widths: [400, 800, 1280],
 
@@ -123,12 +122,6 @@ export default async function(eleventyConfig) {
 			const str = JSON.stringify(value);
 			return `<div style="white-space: pre-wrap;">${unescape(str)}</div>;`
 	});
-
-	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(implicitFigures, {
-		classes: 'rounded shadow-sm',
-		figcaption: 'alt',
-		copyAttrs: true
-	}));
 
 	// Features to make your build faster (when you need them)
 
