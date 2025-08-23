@@ -77,7 +77,7 @@ export default async function(eleventyConfig) {
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
-		formats: ["webp", "avif", "png"],
+		formats: ["webp", "avif", "png", "jpg"],
 
 		widths: [400, 800, 1280],
 
@@ -124,7 +124,11 @@ export default async function(eleventyConfig) {
 			return `<div style="white-space: pre-wrap;">${unescape(str)}</div>;`
 	});
 
-	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(implicitFigures, { classes: 'rounded shadow-sm', figcaption: 'alt', copyAttrs: true }));
+	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(implicitFigures, {
+		classes: 'rounded shadow-sm',
+		figcaption: 'alt',
+		copyAttrs: true
+	}));
 
 	// Features to make your build faster (when you need them)
 
