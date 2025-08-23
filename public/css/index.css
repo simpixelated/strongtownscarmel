@@ -327,3 +327,10 @@ main article h1 + p {
 	padding: 1em;
 	font-style: italic;
 }
+
+figure > figcaption {
+	font-size: 0.875em;
+	color: var(--color-gray-70);
+	text-align: center;
+	margin-top: 0.5em;
+}
