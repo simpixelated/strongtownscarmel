@@ -2,15 +2,15 @@
   {%- for post in postslist | reverse %}
     {%- if loop.first %}
     <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-light-subtle position-relative">
+      <h3 class="display-5 fst-italic">{{post.data.title}}</h3>
       <div class="row">
-        <div class="col-lg-8">
-          <h3 class="display-5 fst-italic">{{post.data.title}}</h3>
+        <div class="col-lg-6">
           <p class="lead my-3">{{post.data.intro}}</p>
           <p class="lead mb-0">
             <a href="{{post.url}}" class="text-body-emphasis fw-bold stretched-link">Continue reading...</a>
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <div>
             <img
               src="{{post.url}}/{{post.data.featuredimage}}"

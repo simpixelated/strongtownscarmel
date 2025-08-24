@@ -9,28 +9,27 @@ const title = 'Upcoming Events';
 
 # Upcoming Events
 
-### August 
+### September
 
 <div class="card">
   <div class="card-header">
     Monthly Member Meeting
   </div>
   <div class="card-body">
-    <h5 class="card-title">August Monthly Meeting</h5>
-    <p class="card-text">We're meeting on August 23rd at 11am.</p>
-    <a href="/blog/meeting-monthly-strong-towns-carmel/" class="btn btn-primary">Details</a>
+    <h5 class="card-title">September Monthly Meeting</h5>
+    <p class="card-text">We're meeting on September 27th at 11am.</p>
+    <a href="https://forms.gle/9x7DSKGDkyFFEcjK7" class="btn btn-primary">RSVP</a>
   </div>
 </div>
 
-### September 
+### October
 
-<!-- <div class="card">
+<div class="card">
   <div class="card-header">
     Monthly Member Meeting
   </div>
   <div class="card-body">
-    <h5 class="card-title">September Monthly Meeting</h5>
-    <p class="card-text">We're meeting on September 27th at 11am.</p>
-    <a href="/blog/meeting-monthly-strong-towns-carmel-sept/" class="btn btn-primary">Details</a>
+    <h5 class="card-title">October Monthly Meeting</h5>
+    <p class="card-text">We're meeting on October 25th at 11am.</p>
   </div>
-</div> -->
+</div>
