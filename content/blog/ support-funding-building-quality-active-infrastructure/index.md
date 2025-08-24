@@ -17,7 +17,7 @@ Parents benefit enormously from [good active infrastructure](https://www.strongt
 Small businesses [benefit](https://www.strongtowns.org/journal/2018/1/16/why-walkable-streets-are-more-economically-productive) from quality active infrastructure too. When streets are safe and easy to navigate on foot or by bike, people are more likely to shop locally instead of driving to the outskirts to spend at a big box store. Bike parking in front of a business is more effective than street parking because it keeps the storefront visible. No one impulse shops when your window display is hidden behind a massive SUV. People who are walking or biking are more likely to spontaneously stop and shop as they travel. That’s something car-focused streets will never offer.
 
 <figure class="figure">
-  <img src="PXL_20220730_170048615.jpg" width="4080" height="2040" class="figure-img img-fluid rounded" alt="Bikes lined up on the sidewalk">
+  <img src="PXL_20220730_170048615.jpg" width="1200" class="figure-img img-fluid rounded" alt="Bikes lined up on the sidewalk">
   <figcaption class="figure-caption text-center">Bikes lined up on the sidewalk</figcaption>
 </figure>
 
@@ -26,14 +26,14 @@ Infrastructure that works for everyone needs to be safe, direct, and separated. 
 And this isn’t a fantasy. My household lives this way. We moved to Carmel specifically for this. We own a car, but it sits in the garage most of the time. We do almost everything on e-cargo bikes. Grocery runs, haircuts, dinner out, the gym, the hardware store. Not only is it easy, it’s beneficial. We get movement passively built into our lives. We get fresh air and sunlight. We save money. We engage with our surroundings more than we ever could behind a windshield. And we feel safer on our streets because of the infrastructure Carmel has already built.
 
 <figure class="figure">
-  <img src="PXL_20250816_141320778.jpg" width="3118" height="1559" class="figure-img img-fluid rounded" alt="The Monon Trail provides safe and low-stress access to local businesses">
+  <img src="PXL_20250816_141320778.jpg" width="1200" class="figure-img img-fluid rounded" alt="The Monon Trail provides safe and low-stress access to local businesses">
   <figcaption class="figure-caption text-center">The Monon Trail provides safe and low-stress access to local businesses</figcaption>
 </figure>
 
 What’s troubling is how biking and walking have been reframed in modern American life. These were never meant to be recreational activities. They were forms of transportation. Our towns and cities didn’t thrive because everyone drove everywhere. People had the freedom to walk and bike locally for daily essentials. Exercise was baked into life because movement came with getting things done. You didn’t need to say “I’m going for a walk to get some exercise.” You just walked to the [corner store](https://www.strongtowns.org/journal/2016/8/25/in-praise-of-the-corner-store). You moved because your city allowed you to. That freedom was lost, but it’s something we can restore.
 
 <figure class="figure">
-  <img src="image.png" width="1466" height="669" class="figure-img img-fluid rounded" alt="A crowd bustles across the Atlantic City Boardwalk in 1923 on Palm Sunday. nydailynews">
+  <img src="image.png" width="1200" class="figure-img img-fluid rounded" alt="A crowd bustles across the Atlantic City Boardwalk in 1923 on Palm Sunday. nydailynews">
   <figcaption class="figure-caption text-center">A crowd bustles across the Atlantic City Boardwalk in 1923 on Palm Sunday. nydailynews</figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ Carmel’s infrastructure is what sets it apart. Decades of work got us to where
 Sometimes, in certain parts of town, Carmel reminds us of the places we love to visit. The places we vacation in because they are quiet, walkable, full of life, filled with shade and laughter and human interaction. You hear birds and people instead of traffic and engines. That’s not an accident. That’s the result of intentional design.
 
 <figure class="figure">
-  <img src="PXL_20220508_202243195.jpg" width="4080" height="2040" class="figure-img img-fluid rounded" alt="Carmel has world-class intentional design on Monon Boulevard">
+  <img src="PXL_20220508_202243195.jpg" width="1200" class="figure-img img-fluid rounded" alt="Carmel has world-class intentional design on Monon Boulevard">
   <figcaption class="figure-caption text-center">Carmel has world-class intentional design on Monon Boulevard</figcaption>
 </figure>
 
