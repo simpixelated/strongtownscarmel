@@ -32,9 +32,9 @@ And this isn’t a fantasy. My household lives this way. We moved to Carmel spec
 
 What’s troubling is how biking and walking have been reframed in modern American life. These were never meant to be recreational activities. They were forms of transportation. Our towns and cities didn’t thrive because everyone drove everywhere. People had the freedom to walk and bike locally for daily essentials. Exercise was baked into life because movement came with getting things done. You didn’t need to say “I’m going for a walk to get some exercise.” You just walked to the [corner store](https://www.strongtowns.org/journal/2016/8/25/in-praise-of-the-corner-store). You moved because your city allowed you to. That freedom was lost, but it’s something we can restore.
 
-<figure class="figure">
-  <img src="image.png" width="1200" class="figure-img img-fluid rounded" alt="A crowd bustles across the Atlantic City Boardwalk in 1923 on Palm Sunday. nydailynews">
-  <figcaption class="figure-caption text-center">A crowd bustles across the Atlantic City Boardwalk in 1923 on Palm Sunday. nydailynews</figcaption>
+<figure class="figure d-block">
+  <img src="washingtonillinois1890s-jpeg.jpg" width="800" class="figure-img img-fluid rounded  mx-auto d-block" alt="Photo of downtown Indianapolis, Indiana, 1911 ">
+  <figcaption class="figure-caption text-center">Photo of downtown Indianapolis, Indiana, 1911 </figcaption>
 </figure>
 
 Carmel’s infrastructure is what sets it apart. Decades of work got us to where we are now. It would be a mistake to stop here. If someone wants to live in a place where car dependency is the only option, there are thousands of cities in the U.S. to choose from. But Carmel has shown it can be different. It can be better.

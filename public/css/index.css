@@ -3,6 +3,7 @@
 	--font-family: Arial, -apple-system, system-ui, sans-serif;
 	--font-family-article: Georgia, 'Times New Roman', Times, serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--bs-nav-link-font-size: 1.25rem;
 }
 
 /* Theme colors */
@@ -161,7 +162,7 @@ header {
 	border-bottom: solid 1px var(--color-gray-70);
 }
 header .nav-item {
-	font-size: 1.125em;
+	/* font-size: 1.125em; */
 	margin: 0 .5em;
 }
 
