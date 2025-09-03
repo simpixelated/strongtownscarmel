@@ -18,7 +18,7 @@ const title = 'Upcoming Events';
   <div class="card-body">
     <h5 class="card-title">September Monthly Meeting</h5>
     <p class="card-text">We're meeting on September 27th at 11am.</p>
-    <a href="https://forms.gle/9x7DSKGDkyFFEcjK7" class="btn btn-primary">RSVP</a>
+    <a href="https://forms.gle/xxJ8GHo7pQ3xn5JDA" class="btn btn-primary">RSVP</a>
   </div>
 </div>
 
