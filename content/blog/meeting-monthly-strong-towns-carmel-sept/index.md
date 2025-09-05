@@ -9,7 +9,7 @@ intro: "Come and join our monthly meeting! We'll discuss Carmel's City-Council m
 
 - What: Housing - ADU legalization ([agenda](https://docs.google.com/document/d/1-r7o1UkXyYDUQO-ufOSzDo0j9ADlG01_gyilLd2al44/edit?usp=sharing))
 - When: Saturday September 27th, 11am - 12pm
-- Where: City Center Amenity Suite (next to the [fitness center](https://maps.app.goo.gl/heC9Jy5eJVg9xkRV9), at the bottom of Veterans Garage)
+- Where: 100 Bank St, Carmel, IN 46032 (next to the [fitness center](https://maps.app.goo.gl/heC9Jy5eJVg9xkRV9), at the bottom of Veterans Garage)
 
 <figure class="figure">
   <img src="entrance.jpg" width="1024" class="figure-img img-fluid rounded" alt="entrance to City Center Amenity Suite">
