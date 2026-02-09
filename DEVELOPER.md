@@ -288,39 +288,7 @@ npm run debugstart   # Dev server with debug output
 
 ## Contributing
 
-### Repository Links
-
-- **GitHub Repository:** https://github.com/simpixelated/strongtownscarmel
-- **Issues:** https://github.com/simpixelated/strongtownscarmel/issues
-- **Pull Requests:** https://github.com/simpixelated/strongtownscarmel/pulls
-- **README:** https://github.com/simpixelated/strongtownscarmel#readme
-
-### Submitting Changes
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes
-4. Test locally with `npm start` and `npm run build`
-5. Commit your changes: `git commit -m "Description of changes"`
-6. Push to your fork: `git push origin feature-name`
-7. Open a Pull Request on GitHub
-
-### Code Style
-
-- Follow the existing code style in the project
-- Use tabs for indentation (see `.editorconfig`)
-- Write clear, descriptive commit messages
-- Keep commits focused and atomic
-
-## Deployment
-
-The site automatically deploys when changes are pushed to the main branch:
-
-- **Netlify:** Automatically builds and deploys from GitHub
-- **Build Command:** `npm run build`
-- **Publish Directory:** `_site`
-
-Check the Netlify badge in the README for build status.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on submitting changes, code style, and deployment information.
 
 ## Troubleshooting
 
@@ -348,35 +316,4 @@ Check the Netlify badge in the README for build status.
 
 ## AI Agent Notes
 
-This section provides context for AI assistants working on this codebase:
-
-### Key Patterns
-- Content files use front matter (YAML) + Markdown/Nunjucks
-- Templates extend `base.njk` using Nunjucks `{% extends %}`
-- Collections are created via tags in front matter
-- All paths are relative to the `content/` directory
-- Static assets go in `public/` and are copied as-is
-
-### Common Operations
-- **Add blog post:** Create `.md` file in `content/blog/` with required front matter
-- **Edit navigation:** Add/modify `eleventyNavigation` in page front matter
-- **Change site metadata:** Edit `_data/metadata.js`
-- **Modify HTML structure:** Edit `_includes/layouts/base.njk`
-- **Add plugin:** Install via npm, configure in `eleventy.config.js`
-
-### File Locations
-- Content: `content/`
-- Templates: `_includes/layouts/`
-- Components: `_includes/`
-- Data: `_data/`
-- Config: `eleventy.config.js`, `_config/`
-- Assets: `public/`
-- Output: `_site/` (generated, not in git)
-
-### Important Configurations
-- Input directory: `content/`
-- Output directory: `_site/`
-- Template formats: `md`, `njk`, `html`, `liquid`, `11ty.js`
-- Markdown parser: markdown-it (Eleventy default)
-- Markdown template pre-processor: Nunjucks
-- HTML template engine: Nunjucks
+For AI assistants working on this codebase, see [AGENTS.md](AGENTS.md) for key patterns, common operations, file locations, and important configurations.
