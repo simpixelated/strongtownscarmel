@@ -377,5 +377,6 @@ This section provides context for AI assistants working on this codebase:
 - Input directory: `content/`
 - Output directory: `_site/`
 - Template formats: `md`, `njk`, `html`, `liquid`, `11ty.js`
-- Markdown engine: Nunjucks
-- HTML engine: Nunjucks
+- Markdown parser: markdown-it (Eleventy default)
+- Markdown template pre-processor: Nunjucks
+- HTML template engine: Nunjucks
