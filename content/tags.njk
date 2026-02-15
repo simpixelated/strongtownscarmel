@@ -1,62 +1,56 @@
+---js
+const pagination = {
+	data: "tagSorts",
+	size: 1,
+	alias: "sortType",
+};
+
+const tagSorts = ["alpha", "count"];
+
+const eleventyComputed = {
+	title: "Tags",
+	permalink: function(data) {
+		if (data.sortType === "alpha") {
+			return "/tags/";
+		}
+		return `/tags/${data.sortType}/`;
+	}
+};
+
+const eleventyNavigation = {
+	key: "Tags",
+	order: 5
+};
+
+const layout = 'layouts/page.njk';
 ---
-title: Tags
-layout: layouts/base.njk
-eleventyNavigation:
-  key: Tags
-  order: 5
----
-<div class="container col-xl-8">
-	<h1>Tags</h1>
 
-	{% set tagCounts = collections | getTagCounts %}
-	{% set allTags = collections | getKeys | filterTagList %}
+<h1>Tags</h1>
 
-	<div class="mb-3">
-		<button id="sort-alpha" class="btn btn-sm btn-primary">Sort Alphabetically</button>
-		<button id="sort-count" class="btn btn-sm btn-outline-primary">Sort by Count</button>
-	</div>
+{% set tagCounts = collections | getTagCounts %}
+{% set allTags = collections | getKeys | filterTagList %}
 
-	<ul id="tag-list">
+<div class="mb-3">
+	<a href="/tags/" class="btn btn-sm btn-{% if sortType == 'alpha' %}secondary{% else %}outline-secondary{% endif %}">Sort Alphabetically</a>
+	<a href="/tags/count/" class="btn btn-sm btn-{% if sortType == 'count' %}secondary{% else %}outline-secondary{% endif %}">Sort by Count</a>
+</div>
+
+<ul>
+{% if sortType == 'alpha' %}
 	{% for tag in allTags | sortAlphabetically %}
 		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-		<li data-tag="{{ tag }}" data-count="{{ tagCounts[tag] }}">
+		<li>
 			<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
 			<span class="badge bg-secondary ms-2">{{ tagCounts[tag] }}</span>
 		</li>
 	{% endfor %}
-	</ul>
-</div>
-
-{% js %}
-document.addEventListener('DOMContentLoaded', () => {
-	const sortAlphaBtn = document.getElementById('sort-alpha');
-	const sortCountBtn = document.getElementById('sort-count');
-	const tagList = document.getElementById('tag-list');
-
-	function sortTags(sortBy) {
-		const items = Array.from(tagList.children);
-		
-		items.sort((a, b) => {
-			if (sortBy === 'alpha') {
-				return a.dataset.tag.localeCompare(b.dataset.tag);
-			} else {
-				return parseInt(b.dataset.count) - parseInt(a.dataset.count);
-			}
-		});
-
-		items.forEach(item => tagList.appendChild(item));
-
-		// Update button styles
-		if (sortBy === 'alpha') {
-			sortAlphaBtn.className = 'btn btn-sm btn-primary';
-			sortCountBtn.className = 'btn btn-sm btn-outline-primary';
-		} else {
-			sortAlphaBtn.className = 'btn btn-sm btn-outline-primary';
-			sortCountBtn.className = 'btn btn-sm btn-primary';
-		}
-	}
-
-	sortAlphaBtn.addEventListener('click', () => sortTags('alpha'));
-	sortCountBtn.addEventListener('click', () => sortTags('count'));
-});
-{% endjs %}
+{% else %}
+	{% for tag in allTags | sortByCount(tagCounts) %}
+		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<li>
+			<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+			<span class="badge bg-secondary ms-2">{{ tagCounts[tag] }}</span>
+		</li>
+	{% endfor %}
+{% endif %}
+</ul>
