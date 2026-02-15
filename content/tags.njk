@@ -1,8 +1,52 @@
+---js
+const pagination = {
+	data: "sortTypes",
+	size: 1,
+	alias: "sortType",
+};
+
+const sortTypes = ["alpha", "count"];
+
+const eleventyComputed = {
+	title: "Tags",
+	permalink: function(data) {
+		if (data.sortType === "alpha") {
+			return "/tags/";
+		}
+		return `/tags/${data.sortType}/`;
+	}
+};
+
+const layout = 'layouts/page.njk';
+---
+
 <h1>Tags</h1>
 
+{% set tagCounts = collections | getTagCounts %}
+{% set allTags = collections | getKeys | filterTagList %}
+
+<div class="mb-3">
+	<a href="/tags/" class="btn btn-sm btn-{% if sortType == 'alpha' %}secondary{% else %}outline-secondary{% endif %}">Sort Alphabetically</a>
+	<a href="/tags/count/" class="btn btn-sm btn-{% if sortType == 'count' %}secondary{% else %}outline-secondary{% endif %}">Sort by Count</a>
+</div>
+
 <ul>
-{% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
-	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
-{% endfor %}
+{% if sortType == 'alpha' %}
+	{% for tag in allTags | sortAlphabetically %}
+		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<li>
+			<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+			<span class="badge bg-secondary ms-2">{{ tagCounts[tag] }}</span>
+		</li>
+	{% endfor %}
+{% else %}
+	{# Sort by count using custom filter defined in _config/filters.js #}
+	{% for tag in allTags | sortByCount(tagCounts) %}
+		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<li>
+			<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+			<span class="badge bg-secondary ms-2">{{ tagCounts[tag] }}</span>
+		</li>
+	{% endfor %}
+{% endif %}
 </ul>

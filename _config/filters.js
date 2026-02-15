@@ -38,6 +38,22 @@ export default function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("sortAlphabetically", strings =>
-		(strings || []).sort((b, a) => b.localeCompare(a))
+		(strings || []).sort((a, b) => a.localeCompare(b))
 	);
+
+	// Get tag counts from collections
+	eleventyConfig.addFilter("getTagCounts", collections => {
+		const tagCounts = {};
+		Object.keys(collections).forEach(tag => {
+			if (!["all", "posts"].includes(tag)) {
+				tagCounts[tag] = collections[tag].length;
+			}
+		});
+		return tagCounts;
+	});
+
+	// Sort tags by count (descending)
+	eleventyConfig.addFilter("sortByCount", (tags, tagCounts) => {
+		return (tags || []).sort((a, b) => (tagCounts[b] || 0) - (tagCounts[a] || 0));
+	});
 };
