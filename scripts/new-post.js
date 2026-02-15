@@ -123,7 +123,7 @@ function buildFolderPath(baseDir, slug) {
   let folderName = slug;
   let fullPath = path.join(baseDir, folderName);
   let counter = 2;
-  const maxAttempts = 100;
+  const maxAttempts = 10;
   
   // Auto-increment if folder exists
   while (fs.existsSync(fullPath)) {

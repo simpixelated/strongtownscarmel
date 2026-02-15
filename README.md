@@ -137,6 +137,17 @@ content/blog/the-autumn-greenway/
 └── index.md
 ```
 
+With frontmatter including the date:
+```yaml
+---
+date: 2026-02-15
+title: "The Autumn Greenway"
+tags:
+  - transportation
+  - bike lanes
+---
+```
+
 You can then add images and other assets to this folder.
 
 #### Option 1: Single Markdown File
