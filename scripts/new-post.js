@@ -29,10 +29,16 @@ function parseArgs() {
     }
 
     const key = arg.slice(2, equalIndex).trim();
-    const value = arg.slice(equalIndex + 1); // may be empty and may contain "="
+    const value = arg.slice(equalIndex + 1);
 
     if (!key) {
       console.error(`Error: Argument "${arg}" has an empty name.`);
+      process.exit(1);
+    }
+    
+    // Reject empty values to fail fast
+    if (value.trim() === '') {
+      console.error(`Error: Argument "${arg}" has an empty value.`);
       process.exit(1);
     }
 
@@ -59,15 +65,15 @@ function validateArgs(params) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(params.date)) {
       errors.push('Error: date must be YYYY-MM-DD');
     } else {
-      // Validate actual date value
-      const dateObj = new Date(params.date + 'T00:00:00');
+      // Validate actual date value using UTC to ensure consistent validation
       const [year, month, day] = params.date.split('-').map(Number);
+      const dateObj = new Date(Date.UTC(year, month - 1, day));
       
       if (
         isNaN(dateObj.getTime()) ||
-        dateObj.getFullYear() !== year ||
-        dateObj.getMonth() + 1 !== month ||
-        dateObj.getDate() !== day
+        dateObj.getUTCFullYear() !== year ||
+        dateObj.getUTCMonth() + 1 !== month ||
+        dateObj.getUTCDate() !== day
       ) {
         errors.push('Error: date is not a valid calendar date');
       }
