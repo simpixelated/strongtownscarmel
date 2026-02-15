@@ -1,11 +1,11 @@
 ---js
 const pagination = {
-	data: "tagSorts",
+	data: "sortTypes",
 	size: 1,
 	alias: "sortType",
 };
 
-const tagSorts = ["alpha", "count"];
+const sortTypes = ["alpha", "count"];
 
 const eleventyComputed = {
 	title: "Tags",
@@ -45,6 +45,7 @@ const layout = 'layouts/page.njk';
 		</li>
 	{% endfor %}
 {% else %}
+	{# Sort by count using custom filter defined in _config/filters.js #}
 	{% for tag in allTags | sortByCount(tagCounts) %}
 		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 		<li>
