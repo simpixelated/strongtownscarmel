@@ -117,7 +117,7 @@ npm run new-post -- --title="Your Post Title" --tags="tag1,tag2"
 ```
 
 This will:
-- Generate a date-prefixed folder: `content/blog/YYYY-MM-DD-slug/`
+- Generate a slug-based folder: `content/blog/slug/`
 - Create an `index.md` file with proper frontmatter
 - Auto-increment the folder name if it already exists
 
@@ -128,12 +128,12 @@ This will:
 
 **Example:**
 ```bash
-npm run new-post -- --title="The Autumn Greenway" --tags="transportation,bike lanes" --date="2026-02-15"
+npm run new-post -- --title="The Autumn Greenway" --tags="transportation,bike lanes"
 ```
 
 This creates:
 ```
-content/blog/2026-02-15-the-autumn-greenway/
+content/blog/the-autumn-greenway/
 └── index.md
 ```
 

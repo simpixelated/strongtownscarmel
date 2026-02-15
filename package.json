@@ -12,7 +12,7 @@
 		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
 		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
 		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-		"new-post": "node scripts/new-post.js"
+		"new-post": "node ./scripts/new-post.js"
 	},
 	"repository": {
 		"type": "git",
