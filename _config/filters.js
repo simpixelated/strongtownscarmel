@@ -38,14 +38,14 @@ export default function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("sortAlphabetically", strings =>
-		(strings || []).sort((b, a) => b.localeCompare(a))
+		(strings || []).sort((a, b) => a.localeCompare(b))
 	);
 
 	// Get tag counts from collections
 	eleventyConfig.addFilter("getTagCounts", collections => {
 		const tagCounts = {};
 		Object.keys(collections).forEach(tag => {
-			if (["all", "posts"].indexOf(tag) === -1) {
+			if (!["all", "posts"].includes(tag)) {
 				tagCounts[tag] = collections[tag].length;
 			}
 		});
