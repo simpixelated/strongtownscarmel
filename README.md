@@ -101,12 +101,43 @@ The site will be available at `http://localhost:8080` with live reload enabled.
 - `npm run debug` - Run build with debug output
 - `npm run debugstart` - Start dev server with debug output
 - `npm run benchmark` - Run build with performance benchmarks
+- `npm run new-post` - Generate a new blog post (see below)
 
 ## Common Development Tasks
 
 ### Publishing a Blog Post
 
-Blog posts live in the `content/blog/` directory. You can create posts in two ways:
+Blog posts live in the `content/blog/` directory. You can create posts in three ways:
+
+#### Option 0: CLI Generator (Recommended)
+Use the built-in blog post generator to quickly create a new post with proper structure:
+
+```bash
+npm run new-post -- --title="Your Post Title" --tags="tag1,tag2"
+```
+
+This will:
+- Generate a date-prefixed folder: `content/blog/YYYY-MM-DD-slug/`
+- Create an `index.md` file with proper frontmatter
+- Auto-increment the folder name if it already exists
+
+**CLI Options:**
+- `--title` (required) - Post title (used for frontmatter and slug generation)
+- `--tags` (required) - Comma-separated list of tags
+- `--date` (optional) - Publication date in YYYY-MM-DD format (defaults to today)
+
+**Example:**
+```bash
+npm run new-post -- --title="The Autumn Greenway" --tags="transportation,bike lanes" --date="2026-02-15"
+```
+
+This creates:
+```
+content/blog/2026-02-15-the-autumn-greenway/
+└── index.md
+```
+
+You can then add images and other assets to this folder.
 
 #### Option 1: Single Markdown File
 Create a new `.md` file directly in `content/blog/`:
