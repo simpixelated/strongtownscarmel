@@ -8,7 +8,7 @@ intro: "Come and join our monthly meeting! We'll discuss Carmel's City-Council m
 ---
 
 - What: Strong Towns Carmel: Monthly Member Meeting
-- When: Saturday, February 28⋅11:00am – 12:00pm
+- When: Saturday February 28th, 11am - 12pm
 - Where: Java House @ Carmel Main Street Library - 425 E Main St, Carmel, IN
 
 Join us for our monthly meeting to discuss local development, infrastructure, and community resilience.
