@@ -17,6 +17,7 @@ This website is built with modern, performance-focused web technologies:
 - **[Eleventy](https://www.11ty.dev/) v3.x** - A static site generator that pre-renders all content
 - **Node.js 18+** - JavaScript runtime (see `.nvmrc` for exact version)
 - **[Nunjucks](https://mozilla.github.io/nunjucks/)** - Templating engine for HTML generation
+- **[Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) v5.3.6** - CSS framework for responsive design and component styling
 
 ### Key Technologies & Features
 - **Zero-JavaScript Output** - All content is pre-rendered for maximum performance

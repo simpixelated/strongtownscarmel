@@ -10,6 +10,12 @@ This document provides context for AI assistants working on the Strong Towns Car
 - All paths are relative to the `content/` directory
 - Static assets go in `public/` and are copied as-is
 
+## Styling Guidelines
+
+- **Prefer Bootstrap classes:** Use [Bootstrap 5.3.6](https://getbootstrap.com/docs/5.3/getting-started/introduction/) utility classes and components whenever possible
+- **Minimize custom CSS:** Custom CSS should only be used when absolutely necessary - Bootstrap provides comprehensive styling options
+- **Zero-JavaScript Output:** All logic and code should run at build time - the output must be completely static with no client-side JavaScript dependencies
+
 ## Common Operations
 
 - **Add blog post:** Create `.md` file in `content/blog/` with required front matter
