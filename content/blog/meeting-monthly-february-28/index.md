@@ -5,6 +5,7 @@ title: "Join Us in February for our Monthly Meeting!"
 tags:
   - events
 intro: "Come and join our monthly meeting! We'll discuss Carmel's City-Council meetings as well as other events around our city, celebrate our wins (big and small), and work together to create a safe, active, and neighborly Carmel that works for everyone who lives here."
+featuredimage: dark-blue-on-light-blue.jpg
 ---
 
 - What: Strong Towns Carmel: Monthly Member Meeting
