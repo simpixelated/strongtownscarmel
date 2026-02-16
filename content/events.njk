@@ -4,11 +4,12 @@ const eleventyNavigation = {
 	order: 3
 };
 const layout = 'layouts/page.njk';
-const title = 'Upcoming Events';
+const title = 'Events';
 ---
 
-<h1>Upcoming Events</h1>
+<h1>Events</h1>
 
+<h2>Upcoming Events</h2>
 {%- set eventPosts = collections.events | upcomingEvents -%}
 {%- if eventPosts.length > 0 -%}
 {%- for post in eventPosts -%}
