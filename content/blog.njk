@@ -4,8 +4,26 @@ const eleventyNavigation = {
 	order: 3
 };
 const title = "Blog";
+const layout = 'layouts/page.njk';
 ---
-<h1>Blog</h1>
+<div class="row align-items-center mb-4">
+	<div class="col">
+		<h1>Blog</h1>
+	</div>
+	<div class="col-auto">
+		<a href="/tags/">View all tags</a>
+	</div>
+</div>
 
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+{% for year, posts in collections.posts | groupby("date") | dictsort | reverse %}
+<h4>{{ year }}</h4>
+<ul>
+	{% for post in posts | reverse %}
+	{% set tags = post.data.tags | filterTagList %}
+	<li>
+		<a href="{{ post.url }}" class="blog-post-title">{{ post.data.title }}</a><br />
+		<small class="post-meta"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | postDate }}</time>{% if tags | length %} - {% include "tag-list.njk" %}{% endif %}</small>
+	</li>
+	{% endfor %}
+</ul>
+{% endfor %}

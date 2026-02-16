@@ -328,3 +328,24 @@ main article h1 + p {
 	padding: 1em;
 	font-style: italic;
 }
+
+/* Blog page styles */
+.blog-post-title {
+	font-size: 1.3em;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.post-meta {
+	color: var(--color-gray-70);
+}
+
+.post-tag {
+	color: var(--color-gray-70);
+	text-decoration: none;
+}
+
+.post-tag:hover {
+	color: var(--text-color);
+	text-decoration: underline;
+}
