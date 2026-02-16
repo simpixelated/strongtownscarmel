@@ -126,6 +126,10 @@ a[href]:active {
 } */
 
 /* Override Bootstrap link color for better contrast */
+a {
+	transition: color .15s ease;
+}
+
 a.icon-link,
 a.card-link {
 	color: #0056b3 !important; /* Darker blue with 4.5:1+ contrast ratio on light backgrounds */
@@ -298,6 +302,14 @@ main article h1 + p {
 	line-height: 1.8em;
 }
 
+.post-content {
+	max-width: 65ch;
+}
+
+.post-content img {
+	border-radius: .5rem;
+}
+
 #banner {
 	background-position: center center;
 	background-size: cover;
@@ -359,4 +371,15 @@ main article h1 + p {
 .post-tag:hover {
 	color: var(--text-color);
 	text-decoration: underline;
+}
+
+/* Card hover effects */
+.card,
+.shadow-sm {
+	transition: box-shadow .15s ease;
+}
+
+.card:hover,
+.row.g-0.border:hover {
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
 }

@@ -91,10 +91,10 @@
 				<nav class="navbar navbar-expand-sm navbar-light bg-transparent">
 					<div class="container-fluid">
 						<h2 class="visually-hidden">Top level navigation menu</h2>
-						<a class="navbar-brand home-link" href="/"><img src="/img/logo-WHITE-Primary.png" alt="{{ metadata.title }}" width="400" height="150" /></a>
+						<a class="navbar-brand home-link fw-semibold" href="/"><img src="/img/logo-WHITE-Primary.png" alt="{{ metadata.title }}" width="400" height="150" /></a>
 						<ul class="navbar-nav ms-auto">
 						{%- for entry in collections.all | eleventyNavigation %}
-							<li class="nav-item"><a class="nav-link{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+							<li class="nav-item"><a class="nav-link fw-medium{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 						{%- endfor %}
 						</ul>
 					</div>
@@ -106,16 +106,22 @@
 			{{ content | safe }}
 		</main>
 
-		<footer class="mt-auto">
-			<div class="container col-xl-8 py-3 px-4 d-flex justify-content-between">
-				<p class="col-md-4 my-0">
-					<em><a href="https://github.com/simpixelated/strongtownscarmel/blob/main/CHANGELOG.md">v{{ package.version }}</a> - built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em>
-				</p>
-				<ul class="col-md-4 justify-content-end list-unstyled d-flex my-0">
-					<li class="ms-3"><a href="https://bsky.app/profile/strongtowns-carmel.bsky.social" aria-label="Follow us on Bluesky"><i class="fa fa-brands fa-bluesky"></i></a></li>
-					<li class="ms-3"><a href="https://www.instagram.com/strongtowns_carmel/" aria-label="Follow us on Instagram"><i class="fa fa-brands fa-instagram"></i></a></li>
-					{# <li class="ms-3"><a href="https://www.linkedin.com/groups/14719624/"><i class="fa fa-brands fa-linkedin"></i></a></li> #}
-				</ul>
+		<footer class="mt-auto py-4">
+			<div class="container col-xl-8">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<p class="mb-0 text-body-secondary">
+							<em><a href="https://github.com/simpixelated/strongtownscarmel/blob/main/CHANGELOG.md">v{{ package.version }}</a> - built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em>
+						</p>
+					</div>
+					<div class="col-md-6">
+						<ul class="list-unstyled d-flex justify-content-md-end mb-0">
+							<li class="ms-3"><a href="https://bsky.app/profile/strongtowns-carmel.bsky.social" aria-label="Follow us on Bluesky"><i class="fa fa-brands fa-bluesky"></i></a></li>
+							<li class="ms-3"><a href="https://www.instagram.com/strongtowns_carmel/" aria-label="Follow us on Instagram"><i class="fa fa-brands fa-instagram"></i></a></li>
+							{# <li class="ms-3"><a href="https://www.linkedin.com/groups/14719624/"><i class="fa fa-brands fa-linkedin"></i></a></li> #}
+						</ul>
+					</div>
+				</div>
 			</div>
 		</footer>
 		{% getBundle "fontawesome" %}
