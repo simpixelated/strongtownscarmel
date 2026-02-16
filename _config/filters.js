@@ -100,14 +100,6 @@ export default function(eleventyConfig) {
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLL d, yyyy");
 	});
 
-	// Exclude specific values from an array
-	eleventyConfig.addFilter("exclude", (collection, valueToExclude) => {
-		if (!valueToExclude) {
-			return collection;
-		}
-		return (collection || []).filter(item => item !== valueToExclude);
-	});
-
 	// Group array of objects by a property path
 	eleventyConfig.addFilter("groupby", (array, path) => {
 		if (!Array.isArray(array)) {
