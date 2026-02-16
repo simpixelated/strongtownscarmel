@@ -15,10 +15,11 @@ Thank you for your interest in contributing to the Strong Towns Carmel website! 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
 3. Make your changes
-4. Test locally with `npm start` and `npm run build`
-5. Commit your changes: `git commit -m "Description of changes"`
-6. Push to your fork: `git push origin feature-name`
-7. Open a Pull Request on GitHub
+4. Update [CHANGELOG.md](CHANGELOG.md) under the "Unreleased" section with your changes
+5. Test locally with `npm start` and `npm run build`
+6. Commit your changes: `git commit -m "Description of changes"`
+7. Push to your fork: `git push origin feature-name`
+8. Open a Pull Request on GitHub
 
 ## Code Style
 
