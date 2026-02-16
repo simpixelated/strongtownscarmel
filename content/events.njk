@@ -13,9 +13,6 @@ const title = 'Upcoming Events';
 {%- if eventPosts.length > 0 -%}
 {%- for post in eventPosts -%}
 <div class="card mb-3">
-  <div class="card-header">
-    Monthly Member Meeting
-  </div>
   <div class="card-body">
     <h5 class="card-title">{{ post.data.title }}</h5>
     <p class="card-text">{{ post.data.intro }}</p>
