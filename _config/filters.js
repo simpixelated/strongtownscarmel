@@ -101,11 +101,11 @@ export default function(eleventyConfig) {
 	});
 
 	// Exclude specific values from an array
-	eleventyConfig.addFilter("exclude", (collection, stringToFilter) => {
-		if (!stringToFilter) {
+	eleventyConfig.addFilter("exclude", (collection, valueToExclude) => {
+		if (!valueToExclude) {
 			return collection;
 		}
-		return (collection || []).filter(item => item !== stringToFilter);
+		return (collection || []).filter(item => item !== valueToExclude);
 	});
 
 	// Group array of objects by a property path
