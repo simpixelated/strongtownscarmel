@@ -56,4 +56,18 @@ export default function(eleventyConfig) {
 	eleventyConfig.addFilter("sortByCount", (tags, tagCounts) => {
 		return (tags || []).sort((a, b) => (tagCounts[b] || 0) - (tagCounts[a] || 0));
 	});
+
+	// Filter events into upcoming (future) events
+	eleventyConfig.addFilter("upcomingEvents", (events) => {
+		const now = new Date();
+		return (events || []).filter(event => new Date(event.date) >= now);
+	});
+
+	// Filter events into past events and reverse chronological order
+	eleventyConfig.addFilter("pastEvents", (events) => {
+		const now = new Date();
+		return (events || [])
+			.filter(event => new Date(event.date) < now)
+			.sort((a, b) => new Date(b.date) - new Date(a.date));
+	});
 };
