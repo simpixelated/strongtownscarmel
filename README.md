@@ -15,7 +15,7 @@ This website is built with modern, performance-focused web technologies:
 
 ### Core Framework
 - **[Eleventy](https://www.11ty.dev/) v3.x** - A static site generator that pre-renders all content
-- **Node.js 18+** - JavaScript runtime (see `.nvmrc` for exact version)
+- **Node.js 24+** - JavaScript runtime (see `.nvmrc` for exact version)
 - **[Nunjucks](https://mozilla.github.io/nunjucks/)** - Templating engine for HTML generation
 - **[Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) v5.3.6** - CSS framework for responsive design and component styling
 
@@ -72,7 +72,7 @@ strongtownscarmel/
 ## Getting Started
 
 ### Prerequisites
-- Node.js 18 or higher (use the version in `.nvmrc`)
+- Node.js 24 or higher (use the version in `.nvmrc`)
 - npm (comes with Node.js)
 
 ### Installation
@@ -345,7 +345,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on submitting changes, cod
 ### Common Issues
 
 **Issue:** `npm install` fails
-- **Solution:** Ensure you're using Node.js 18 or higher. Check with `node --version`
+- **Solution:** Ensure you're using Node.js 24 or higher. Check with `node --version`
 
 **Issue:** Images not optimizing
 - **Solution:** Clear the `_site` folder and rebuild: `rm -rf _site && npm run build`
