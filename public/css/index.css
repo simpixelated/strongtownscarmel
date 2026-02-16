@@ -126,8 +126,8 @@ a[href]:active {
 } */
 
 /* Override Bootstrap link color for better contrast */
-.icon-link,
-.card-link {
+a.icon-link,
+a.card-link {
 	color: #0056b3 !important; /* Darker blue with 4.5:1+ contrast ratio on light backgrounds */
 }
 
