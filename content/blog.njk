@@ -22,7 +22,7 @@ const layout = 'layouts/page.njk';
 	{% set tags = post.data.tags | filterTagList %}
 	<li>
 		<a href="{{ post.url }}" class="blog-post-title">{{ post.data.title }}</a><br />
-		<small class="post-meta"><time>{{ post.date | postDate }}</time>{% if tags | length %} - {% include "tag-list.njk" %}{% endif %}</small>
+		<small class="post-meta"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | postDate }}</time>{% if tags | length %} - {% include "tag-list.njk" %}{% endif %}</small>
 	</li>
 	{% endfor %}
 </ul>
