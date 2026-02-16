@@ -59,15 +59,39 @@ export default function(eleventyConfig) {
 
 	// Filter events into upcoming (future) events
 	eleventyConfig.addFilter("upcomingEvents", (events) => {
-		const now = new Date();
-		return (events || []).filter(event => new Date(event.date) >= now);
+		// Normalize "now" and event dates to UTC and compare at day granularity
+		const today = DateTime.utc().startOf("day");
+		return (events || []).filter(event => {
+			if (!event || !event.date) {
+				return false;
+			}
+			// Use eventDate if available, otherwise fall back to date
+			const eventDateValue = event.data?.eventDate || event.date;
+			const eventDate = DateTime.fromJSDate(new Date(eventDateValue), { zone: "utc" }).startOf("day");
+			return eventDate >= today;
+		});
 	});
 
 	// Filter events into past events and reverse chronological order
 	eleventyConfig.addFilter("pastEvents", (events) => {
-		const now = new Date();
+		// Normalize "now" and event dates to UTC and compare at day granularity
+		const today = DateTime.utc().startOf("day");
 		return (events || [])
-			.filter(event => new Date(event.date) < now)
-			.sort((a, b) => new Date(b.date) - new Date(a.date));
+			.filter(event => {
+				if (!event || !event.date) {
+					return false;
+				}
+				// Use eventDate if available, otherwise fall back to date
+				const eventDateValue = event.data?.eventDate || event.date;
+				const eventDate = DateTime.fromJSDate(new Date(eventDateValue), { zone: "utc" }).startOf("day");
+				return eventDate < today;
+			})
+			.sort((a, b) => {
+				const aDateValue = a.data?.eventDate || a.date;
+				const bDateValue = b.data?.eventDate || b.date;
+				const aDate = DateTime.fromJSDate(new Date(aDateValue), { zone: "utc" }).startOf("day");
+				const bDate = DateTime.fromJSDate(new Date(bDateValue), { zone: "utc" }).startOf("day");
+				return bDate.toMillis() - aDate.toMillis();
+			});
 	});
 };

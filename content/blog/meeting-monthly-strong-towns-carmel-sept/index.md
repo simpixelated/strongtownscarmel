@@ -1,5 +1,6 @@
 ---
 date: 2025-09-03
+eventDate: 2025-09-27
 title: "Join Us in September for our Monthly Meeting!"
 tags:
   - events
