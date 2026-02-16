@@ -6,14 +6,18 @@ const eleventyNavigation = {
 const title = "Blog";
 const layout = 'layouts/page.njk';
 ---
-<header>
-	<h1>Blog</h1>
-	<a href="/tags/">View all tags</a>
-</header>
+<div class="row align-items-center mb-4">
+	<div class="col">
+		<h1>Blog</h1>
+	</div>
+	<div class="col-auto">
+		<a href="/tags/">View all tags</a>
+	</div>
+</div>
 
 {% for year, posts in collections.posts | groupby("date") | dictsort | reverse %}
 <h4>{{ year }}</h4>
-<ul class="blog-list">
+<ul>
 	{% for post in posts | reverse %}
 	{% set tags = post.data.tags | exclude('posts') %}
 	<li>
