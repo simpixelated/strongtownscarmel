@@ -19,7 +19,7 @@ const layout = 'layouts/page.njk';
 <h4>{{ year }}</h4>
 <ul>
 	{% for post in posts | reverse %}
-	{% set tags = post.data.tags | exclude('posts') %}
+	{% set tags = post.data.tags | filterTagList %}
 	<li>
 		<a href="{{ post.url }}" class="blog-post-title">{{ post.data.title }}</a><br />
 		<small class="post-meta"><time>{{ post.date | postDate }}</time>{% if tags | length %} - {% include "tag-list.njk" %}{% endif %}</small>
