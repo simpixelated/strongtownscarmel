@@ -94,4 +94,49 @@ export default function(eleventyConfig) {
 				return bDate.toMillis() - aDate.toMillis();
 			});
 	});
+
+	// Format date for blog posts (e.g., "Jan 15, 2024")
+	eleventyConfig.addFilter("postDate", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLL d, yyyy");
+	});
+
+	// Exclude specific values from an array
+	eleventyConfig.addFilter("exclude", (collection, stringToFilter) => {
+		if (!stringToFilter) {
+			return collection;
+		}
+		return (collection || []).filter(item => item !== stringToFilter);
+	});
+
+	// Group array of objects by a property path
+	eleventyConfig.addFilter("groupby", (array, path) => {
+		if (!Array.isArray(array)) {
+			return {};
+		}
+		
+		const grouped = {};
+		array.forEach(item => {
+			// Navigate through nested properties using dot notation
+			const keys = path.split('.');
+			let value = item;
+			for (const key of keys) {
+				value = value?.[key];
+			}
+			
+			// Extract year from date if the value is a date object
+			if (value instanceof Date) {
+				value = value.getFullYear();
+			}
+			
+			if (value !== undefined && value !== null) {
+				const key = String(value);
+				if (!grouped[key]) {
+					grouped[key] = [];
+				}
+				grouped[key].push(item);
+			}
+		});
+		
+		return grouped;
+	});
 };
