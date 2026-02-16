@@ -56,4 +56,42 @@ export default function(eleventyConfig) {
 	eleventyConfig.addFilter("sortByCount", (tags, tagCounts) => {
 		return (tags || []).sort((a, b) => (tagCounts[b] || 0) - (tagCounts[a] || 0));
 	});
+
+	// Filter events into upcoming (future) events
+	eleventyConfig.addFilter("upcomingEvents", (events) => {
+		// Normalize "now" and event dates to UTC and compare at day granularity
+		const today = DateTime.utc().startOf("day");
+		return (events || []).filter(event => {
+			if (!event || !event.date) {
+				return false;
+			}
+			// Use eventDate if available, otherwise fall back to date
+			const eventDateValue = event.data?.eventDate || event.date;
+			const eventDate = DateTime.fromJSDate(new Date(eventDateValue), { zone: "utc" }).startOf("day");
+			return eventDate >= today;
+		});
+	});
+
+	// Filter events into past events and reverse chronological order
+	eleventyConfig.addFilter("pastEvents", (events) => {
+		// Normalize "now" and event dates to UTC and compare at day granularity
+		const today = DateTime.utc().startOf("day");
+		return (events || [])
+			.filter(event => {
+				if (!event || !event.date) {
+					return false;
+				}
+				// Use eventDate if available, otherwise fall back to date
+				const eventDateValue = event.data?.eventDate || event.date;
+				const eventDate = DateTime.fromJSDate(new Date(eventDateValue), { zone: "utc" }).startOf("day");
+				return eventDate < today;
+			})
+			.sort((a, b) => {
+				const aDateValue = a.data?.eventDate || a.date;
+				const bDateValue = b.data?.eventDate || b.date;
+				const aDate = DateTime.fromJSDate(new Date(aDateValue), { zone: "utc" }).startOf("day");
+				const bDate = DateTime.fromJSDate(new Date(bDateValue), { zone: "utc" }).startOf("day");
+				return bDate.toMillis() - aDate.toMillis();
+			});
+	});
 };
