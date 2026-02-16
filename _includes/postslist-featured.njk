@@ -28,7 +28,7 @@
           <div class="col p-4 d-flex flex-column">
             <strong class="d-inline-block mb-2 text-primary-emphasis text-capitalize">{{post.data.tags[1]}}</strong>
             <h3>{{post.data.title}}</h3>
-            <h6><time class="text-body-secondary" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time></h6>
+            <div class="post-date"><time class="text-body-secondary" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time></div>
             <p class="card-text mb-4">{{post.data.intro.slice(0, 180)}}...</p>
             <a href="{{post.url}}" class="icon-link gap-1 icon-link-hover stretched-link">
               Continue reading
@@ -43,7 +43,7 @@
             <div class="card mb-4 bg-body-tertiary shadow-sm border">
               <div class="card-body p-4">
                 <h4 class="card-title">{{post.data.title}}</h4>
-                <h6><time class="text-body-secondary" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time></h6>
+                <div class="post-date"><time class="text-body-secondary" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time></div>
                 <p class="card-text">{{post.data.intro}}</p>
                 <a href="{{post.url}}" class="card-link icon-link gap-1 icon-link-hover stretched-link">Continue reading<i class="bi fa fa-solid fa-angles-right"></i></a>
               </div>
