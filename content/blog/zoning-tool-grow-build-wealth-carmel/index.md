@@ -6,7 +6,6 @@ tags:
   - policy
   - ADUs
   - zoning
-featuredimage: housing.jpg
 intro: "In our last meeting we had a very informative discussion on zoning, thanks to the expertise of urban planner Jeffery Tompkins as well as Carmel city councilor Shannon Minnaar, who sits on the Housing Commission."
 ---
 
