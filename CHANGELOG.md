@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 1.0.1 - 2026-02-23
+
+### Added
+
+- Copilot environment setup with Node 24 [#47](https://github.com/simpixelated/strongtownscarmel/pull/47)
+
+### Changed
+
+- Fix changelog link to reference stable branch [#57](https://github.com/simpixelated/strongtownscarmel/pull/57)
+- Improve Lighthouse performance and accessibility scores to 100 [#50](https://github.com/simpixelated/strongtownscarmel/pull/50)
+- Track package-lock.json for reproducible CI builds [#49](https://github.com/simpixelated/strongtownscarmel/pull/49)
+
+---
+
 ## 1.0.0 - 2026-02-16
 
 ### Added
