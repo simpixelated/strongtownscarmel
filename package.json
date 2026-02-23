@@ -1,6 +1,6 @@
 {
 	"name": "strong-towns-carmel-website",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Website for the local chapter of Strong Towns in Carmel, Indiana.",
 	"type": "module",
 	"scripts": {
