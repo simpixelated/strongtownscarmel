@@ -13,3 +13,9 @@ intro: "Strong Towns Carmel is hosting a cargo bike meet-up on April 25th at 3:3
 - Where: [Midtown Plaza, Carmel](https://maps.app.goo.gl/6R4cyBokitcnyFGk6)
 
 Strong Towns Carmel is hosting a casual gathering of people who ride cargo bikes and for those interested in learning. Already ride? Bring your bike to show off! Just curious? Come ask questions and get inspired! Families, trailers, bikes with panniers, are all welcome!
+
+Have questions? Email [strongtownscarmel@gmail.com](mailto:strongtownscarmel@gmail.com).
+
+<figure class="figure">
+  <img src="cargo-bike-meetup-flyer.jpg" class="figure-img img-fluid rounded" alt="Cargo Bike Meet-up Flyer">
+</figure>
