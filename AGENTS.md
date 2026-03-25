@@ -24,6 +24,15 @@ This document provides context for AI assistants working on the Strong Towns Car
 - **Modify HTML structure:** Edit `_includes/layouts/base.njk`
 - **Add plugin:** Install via npm, configure in `eleventy.config.js`
 
+## Adding Images to Blog Posts
+
+Images for a blog post should be saved directly in the same folder as the post (e.g., `content/blog/my-post/my-image.jpg`) and referenced by filename only in the `featuredimage` front matter field. Do **not** use inline `<img>` tags with external URLs (e.g., GitHub attachment URLs). Instead:
+
+1. Download the image file and save it to the post's directory (e.g., `content/blog/my-post/flyer.jpg`).
+2. Reference it in front matter: `featuredimage: flyer.jpg`
+
+The Eleventy image plugin will optimize the image at build time, and the `featuredimage` value is also used for OG/Twitter card meta tags.
+
 ## File Locations
 
 - Content: `content/`
