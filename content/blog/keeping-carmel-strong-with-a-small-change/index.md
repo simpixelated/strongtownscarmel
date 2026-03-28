@@ -147,12 +147,12 @@ at least 10 years.
 
 ##### Are we losing our voice if this is allowed “by right”?
 
-This is one of the central tensions in the current debate. The existing system requires case-by-case approvals through the [Board of Zoning Appeals](https://www.carmel.in.gov/government/boards-commissions-committees/board-of-zoning-appeals) (a process designed for large, complex developments). But applying that same process to small backyard units creates friction that discourages everyday homeowners from participating. Allowing ADUs “by right” doesn’t remove local control. It shifts it earlier in the process, where the community sets clear rules upfront.
+The existing system requires case-by-case approvals through the [Board of Zoning Appeals](https://www.carmel.in.gov/government/boards-commissions-committees/board-of-zoning-appeals) (a process designed for large, complex developments). But applying that same process to small backyard units creates friction that discourages everyday homeowners from participating. Allowing ADUs “by right” doesn’t remove local control. It shifts it earlier in the process, where the community sets clear rules upfront.
 - Everyone knows what is allowed
 - Everyone is held to the same standards
 - Fewer conflicts between neighbors
 
-It’s a more predictable, transparent system.
+It’s a more predictable, transparent system. Plus, many neighborhoods within Carmel also exist within an HOA, which has it's own restrictions on ADUs. So even if the city were to legalize them entirely in all residential zones, they would still be limited by what each HOA allows.
 
 > Well-intentioned but burdensome rules can stymie
 the creation of ADUs. ADU-related zoning codes
