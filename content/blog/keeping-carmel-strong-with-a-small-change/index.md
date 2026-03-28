@@ -23,7 +23,7 @@ While there are larger economic forces at play, we've also made the problem wors
 
 ## A city of big dreams but few housing options
 
-Over time, Carmel has become a city dominated by large single-family homes. Today, about half of our housing stock has four or more bedrooms, even though the average household is much smaller. That mismatch means a young couple just starting out has very few entry points into the community. It means a single person or a small family is often forced to rent at high prices or look elsewhere entirely. And it means empty nesters are left with a difficult choice: stay in a home that no longer fits their needs, or leave the neighborhood they love.
+Over time, Carmel has become a city dominated by large single-family homes. Today, about half of our housing stock has four or more bedrooms, even though the average household is much smaller. That mismatch means a young couple just starting out has very few entry points into the community. A single person or a small family is often forced to rent at high prices or look elsewhere entirely. And empty nesters are left with a difficult choice: stay in a home that no longer fits their needs, or leave the neighborhood they love.
 
 At the same time, housing costs have risen much faster than wages. This isn’t theoretical. It shows up in everyday conversations:
 - “My kids can’t afford to live here.”
@@ -59,7 +59,7 @@ ADUs are another missing middle type of housing:
 - For **young families or individuals** — an ADU can serve as an affordable first home or rental option in a desirable neighborhood. Because ADUs are often smaller and more cost-efficient to build, they tend to be more affordable than new single-family houses.
 - For **seniors or retirees**, ADUs make “aging in place” possible: they can move to a smaller, manageable unit (with potentially universal design or accessible features) and possibly rent out their main house, or keep family close while preserving independence.
 
-In this way, ADUs provide housing for a range of life stages and help Carmel remain demographically diverse and inclusive. Perhaps the most important reason to allow ADUs is this: they help keep Carmel a place where people can stay. Stay when they’re starting out. Stay when their family grows. Stay when they want to downsize. Stay when they retire.
+In this way, ADUs provide housing for a range of life stages and help Carmel remain demographically diverse and inclusive. Perhaps the most important reason to allow ADUs is this: they help keep Carmel a place where people can stay. Stay as they’re starting out. Stay as their family grows. Stay as they want to downsize. Stay as they retire.
 
 <figure class="figure">
   <img src="slide-stay.png" width="1000" class="figure-img img-fluid rounded" alt="ADUs allow residents to stay in their homes">
@@ -171,7 +171,7 @@ At Strong Towns, we talk about the difference between large, top-down developmen
 
 Carmel has already done the hard part: studying the issue, gathering data, and [hearing from residents](https://www.youarecurrent.com/2026/03/06/column-housing-roundtables-inspire-lively-respectful-debate/). Now there’s an opportunity to act.
 
-Legalizing ADUs by right, with clear and reasonable standards, is a small step towards giving residents what they are asking for: more housing options. Not a sweeping overhaul. Not a radical shift. Just a simple change that allows the city to grow in a more flexible, resilient way. If Carmel moves to legalize ADUs, here’s how to do it in a way that stays true to Strong Towns values:
+Legalizing ADUs by right, with clear, simple standards, is a small step towards giving residents what they are asking for: more housing options. Not a sweeping overhaul. Not a radical shift. Just a simple change that allows the city to grow in a more flexible, resilient way. If Carmel moves to legalize ADUs, here’s how to do it in a way that stays true to Strong Towns values:
 
 - **Allow ADUs by right** (rather than requiring special permits or conditional use) in single-family zones to reduce barriers and encourage modest, incremental additions.
 - **Permit a variety of ADU types** — detached cottages, garage-apartments, basement conversions, internal “in-law” units all maximize flexibility and allow homeowners to adapt to their property.
