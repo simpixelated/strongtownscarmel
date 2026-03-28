@@ -13,7 +13,7 @@ intro: In Carmel is that we mostly have two options on either end of the spectru
 
 If you’ve lived in Carmel for any length of time, you’ve probably noticed something subtle but important: it’s getting harder for people to find an affordable place to live. Not just anyone, but the people we care about most. Our children and grandchildren. The teacher down the street. The firefighter who shows up when something goes wrong. The neighbor who raised a family here and now wants to stay, even as life changes.
 
-Carmel is a place people love and they don't want it to change. But change is happening, regardless. Rising housing costs have made it diffult, if not impossible for many families to afford living in Carmel. How many people do you know who say they couldn't afford to buy the home they live in now? Many people who grew up in Carmel, can't afford to return home and end up moving to northern Indy, Westfield, etc. Maybe you'd like to get out of your large home, but there's nothing affordable in walkable neighborhoods?
+Carmel is a place people love and they don't want it to change. But change is happening, regardless. Rising housing costs have made it difficult, if not impossible for many families to afford living in Carmel. How many people do you know who say they couldn't afford to buy the home they live in now? Many people who grew up in Carmel, can't afford to return home and end up moving to northern Indy, Westfield, etc. Maybe you'd like to get out of your large home, but there's nothing affordable in walkable neighborhoods?
 
 While there are larger economic forces at play, we've also made the problem worse by restricting what owners can build on their own property. We’ve made it increasingly difficult for people to remain part of this community at different stages of life.
 
@@ -185,7 +185,7 @@ If we want Carmel to remain strong financially, socially, and culturally, we nee
 
 If you'd like to see more missing middle housing in Carmel, you can voice your support for legalizing Accessory Dwelling Units by:
 - emailing the Housing Commission: Bric Butler [bbutler@carmel.in.gov](mailto:bbutler@carmel.in.gov)
-- emailing Shannon Minaar, the city council representative on the Housing Commission: [sminnaar@carmel.in.gov](sminnaar@carmel.in.gov)
+- emailing Shannon Minnaar, the city council representative on the Housing Commission: [sminnaar@carmel.in.gov](sminnaar@carmel.in.gov)
 - [speaking at city council meetings or contacting your city councilor](https://www.carmel.in.gov/government/city-council/how-to-be-heard)
 
 <figure class="figure">
