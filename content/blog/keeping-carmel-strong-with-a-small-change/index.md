@@ -125,7 +125,7 @@ ADU can be rented nightly to
 tourists, then someday rented to a
 long-term tenant, then used to
 house an aging parent. ADUs
-intended primarily for visting
+intended primarily for visiting
 family are sometimes used as
 short-term rentals between visits.
 >
@@ -157,7 +157,7 @@ It’s a more predictable, transparent system. Plus, many neighborhoods within C
 > Well-intentioned but burdensome rules can stymie
 the creation of ADUs. ADU-related zoning codes
 should be restrictive enough to prevent undesirable
-development but flexible enough that ADUs get buil
+development but flexible enough that ADUs get built.
 > 
 > [AARP: The ABCs of ADUs](https://www.aarp.org/content/dam/aarp/livable-communities/housing/2022/ABCs%20of%20ADUs-web-spreads-082222.pdf)
 
@@ -171,7 +171,7 @@ At Strong Towns, we talk about the difference between large, top-down developmen
 
 Carmel has already done the hard part: studying the issue, gathering data, and [hearing from residents](https://www.youarecurrent.com/2026/03/06/column-housing-roundtables-inspire-lively-respectful-debate/). Now there’s an opportunity to act.
 
-Legalizing ADUs by right, with clear and reasonable standards, is a small step towards giving residents what tehy are asking for: more housing options. Not a sweeping overhaul. Not a radical shift. Just a simple change that allows the city to grow in a more flexible, resilient way. If Carmel moves to legalize ADUs, here’s how to do it in a way that stays true to Strong Towns values:
+Legalizing ADUs by right, with clear and reasonable standards, is a small step towards giving residents what they are asking for: more housing options. Not a sweeping overhaul. Not a radical shift. Just a simple change that allows the city to grow in a more flexible, resilient way. If Carmel moves to legalize ADUs, here’s how to do it in a way that stays true to Strong Towns values:
 
 - **Allow ADUs by right** (rather than requiring special permits or conditional use) in single-family zones to reduce barriers and encourage modest, incremental additions.
 - **Permit a variety of ADU types** — detached cottages, garage-apartments, basement conversions, internal “in-law” units all maximize flexibility and allow homeowners to adapt to their property.
