@@ -44,6 +44,6 @@ In my opinion, the solution to Carmel's housing crisis is to simply build more d
 - remove parking mandates (see [Parking Reform Network](https://parkingreform.org/what-is-parking-reform/) for why/how)
 - reduce minimum lot sizes (read [this brief](https://www.mercatus.org/research/policy-briefs/urban-minimum-lot-sizes-their-background-effects-and-avenues-reform) by the Mercatus Center)
 - allow duplexes in current single family only zoning
-- legalize Accessory Dwelling Units (ADUs)
+- [legalize Accessory Dwelling Units (ADUs)](/blog/keeping-carmel-strong-with-a-small-change/)
 
 With these changes, it might be possible for individual home owners, or future ones, to build and buy affordable housing. I'm looking forward to seeing what the task force discovers and decides to do with the information they gather. Ultimately, I hope we end up with a simplified zoning code that allows for a healthier mix of housing types.

@@ -39,6 +39,7 @@ How we do it:
 - March, 2025: Completed "Stage 1" of the Strong Towns [Local Conversation process](https://drive.google.com/file/d/1BQaEYGFDhf-SC24y5WEXx3XgTcRscEn9/view)
 - March 12th, 2025: Became officially listed on the Strong Towns [Local Conversation map](https://www.google.com/maps/d/u/0/viewer?ll=39.63933670000907%2C-86.9991385222707&z=7&mid=12VM4_wScJ36-EnEXQh-wN08xOK57tuw)
 - March 15th, 2025: Held our first in-person meeting
-- April 19th, 2025: Held our second in-person meeting
 - May 15th, 2025: [Volunteered with HAND](https://www.linkedin.com/posts/jordankohl_100handsforhand-housing4all-activity-7329124629904588800-Ii1Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAQ2FJsB6y3oYUkT6I5iKgtyCJuMxAIS_L4) to help landscape in their Home Place development
-- May 31st, 2025: Held our third in-person meeting
+- Augist, 2025: Hosted a tour of [Fields Market Garden](https://www.fieldsmarketgarden.com/)
+- October 2025: Hosted a conversation with Indianpolis Urban Planner [Jeffery Tompkins](https://www.jefferytompkins.com/) and Council Member Shannon Minnaar 
+- February, 2026: Held our first in-person meeting of 2026
