@@ -18,6 +18,7 @@ Carmel is an amazing place to live and we want our children, teachers, firefight
 
 How we do it:
 - [How to build "missing middle" housing in Carmel](/blog/how-to-build-missing-middle-in-carmel/)
+- [Legalizing Accessory Dwelling Units](/blog/keeping-carmel-strong-with-a-small-change/)
 
 ### Create Safe and Productive Streets
 
