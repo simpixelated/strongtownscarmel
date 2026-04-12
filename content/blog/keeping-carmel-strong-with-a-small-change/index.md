@@ -8,12 +8,12 @@ tags:
   - missing middle
   - policy
 featuredimage: image.png
-intro: In Carmel is that we mostly have two options on either end of the spectrum - large suburban homes or tightly-packed apartments. What's missing, because it is illegal or impractical to build due to our zoning code, is more house-scale options. An ADU is a small, self-contained home on the same property as a single-family house. 
+intro: In Carmel is that we mostly have two options on either end of the spectrum - large suburban homes or tightly-packed apartments. What's missing, because it is illegal or impractical to build due to our zoning code, are more house-scale options. An ADU is a small, self-contained home on the same property as a single-family house. 
 ---
 
 If you’ve lived in Carmel for any length of time, you’ve probably noticed something subtle but important: it’s getting harder for people to find an affordable place to live. Not just anyone, but the people we care about most. Our children and grandchildren. The teacher down the street. The firefighter who shows up when something goes wrong. The neighbor who raised a family here and now wants to stay, even as life changes.
 
-Carmel is a place people love and they don't want it to change. But change is happening, regardless. Rising housing costs have made it difficult, if not impossible for many families to afford living in Carmel. How many people do you know who say they couldn't afford to buy the home they live in now? Many people who grew up in Carmel, can't afford to return home and end up moving to northern Indy, Westfield, etc. Maybe you'd like to get out of your large home, but there's nothing affordable in walkable neighborhoods?
+Carmel is a place people love and they don't want it to change. But change is happening, regardless. Rising housing costs have made it difficult, if not impossible for many families to afford living in Carmel. How many people do you know who say they couldn't afford to buy the home they live in now? Many people who grew up in Carmel, can't afford to return home and end up moving to northern Indy, Westfield, etc. Perhaps you'd like to downsize from a large home, only to find there are no affordable options in walkable neighborhoods.
 
 While there are larger economic forces at play, we've also made the problem worse by restricting what owners can build on their own property. We’ve made it increasingly difficult for people to remain part of this community at different stages of life.
 
@@ -38,7 +38,7 @@ And increasingly, the data backs that up. We now have clearer evidence of what m
 
 ## What's missing in Carmel: more house-scale choices
 
-When we talk about housing, the reality in Carmel is that we mostly have two options on either end of the spectrum: large suburban homes or tightly-packed apartments. What's missing, because it is illegal or impractical to build due to our zoning code, is more house-scale options.
+When we talk about housing, the reality in Carmel is that we mostly have two options on either end of the spectrum: large suburban homes or tightly-packed apartments. What's missing, because it is illegal or impractical to build due to our zoning code, are more house-scale options.
 
 <figure class="figure">
   <img src="MMH_Diagram_Landing_Page-2.jpg" width="1024" class="figure-img img-fluid rounded" alt="missing middle diagram by Opticos Design">
@@ -152,7 +152,7 @@ The existing system requires case-by-case approvals through the [Board of Zoning
 - Everyone is held to the same standards
 - Fewer conflicts between neighbors
 
-It’s a more predictable, transparent system. Plus, many neighborhoods within Carmel also exist within an HOA, which has it's own restrictions on ADUs. So even if the city were to legalize them entirely in all residential zones, they would still be limited by what each HOA allows.
+It’s a more predictable, transparent system. Plus, many neighborhoods within Carmel also exist within an HOA, which has its own restrictions on ADUs. So even if the city were to legalize them entirely in all residential zones, they would still be limited by what each HOA allows.
 
 > Well-intentioned but burdensome rules can stymie
 the creation of ADUs. ADU-related zoning codes
