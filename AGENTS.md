@@ -54,4 +54,4 @@ The Eleventy image plugin will optimize the image at build time, and the `featur
 
 ## Additional Resources
 
-For detailed development instructions, see [DEVELOPER.md](DEVELOPER.md).
+For detailed development instructions, see [README Getting Started](https://github.com/simpixelated/strongtownscarmel/blob/stable/README.md#getting-started).
