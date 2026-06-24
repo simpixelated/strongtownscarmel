@@ -13,3 +13,8 @@ featuredimage: dark-blue-on-light-blue.jpg
 - Where: Carmel City Center Amenity Suite, 100 Bank St, Carmel, IN 46032 (next to the fitness center, at the bottom of Veterans Garage)
 
 We are planning a meeting for June to work through the Strong Towns Finance Decoder and apply it to Carmel. During this meeting we hope to answer: what is Carmel's true financial position.
+
+<figure class="figure">
+  <img src="../meeting-monthly-strong-towns-carmel-sept/entrance.jpg" width="1024" class="figure-img img-fluid rounded" alt="entrance to City Center Amenity Suite">
+  <figcaption class="figure-caption text-center">Entrance to City Center Amenity Street below Veterans Garage</figcaption>
+</figure>
